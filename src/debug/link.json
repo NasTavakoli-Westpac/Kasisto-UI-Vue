@@ -1,0 +1,47 @@
+{
+	"status": {
+		"code": "200"
+	},
+	"current_intent": "VpaUnknownRequest",
+	"message_contents": [{
+		"type": "TEXT",
+		"payload": {
+			"text": "Here you go."
+		}
+    },
+    {
+        "type": "LINK",
+        "payload": {
+            "label": "feedback",
+            "type": "POSTBACK",
+            "payload": "http://www.google.com"
+        }
+    }
+],
+	"quick_replies": [
+        {
+            "type": "TEXT",
+            "display_text": "👍",
+            "payload": "👍",
+            "label": "👍"
+        },
+        {
+            "type": "TEXT",
+            "display_text": "👎",
+            "payload": "👎",
+            "label": "👎"
+        }
+    ],
+    "alternative_questions": [
+        {
+            "display_sentence": "Sample NBest Question 1?",
+            "intent_name": "ID-0001-fakeid",
+            "payload": "[ENCRYPTED POSTBACK PAYLOAD 1]"
+        },
+        {
+            "question": "Sample NBest Question 2?",
+            "question_id": "ID-0002-fakeid",
+            "payload": "[ENCRYPTED POSTBACK PAYLOAD 2]"
+        }
+    ]
+}

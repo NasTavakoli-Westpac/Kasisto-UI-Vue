@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="75px" viewBox="0 0 100 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Excellent V2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="" id="path-1"></path>
+        <filter x="-150.0%" y="-150.0%" width="400.0%" height="400.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Excellent-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10.8845548,38.5985261 L18.6525385,40.4855426 C18.198052,42.578023 17.9589734,44.7479712 17.9589734,46.9723246 C17.9589734,52.7633086 19.5794319,58.1855381 22.4026553,62.8320509 L16.1312348,67.780071 C12.221903,61.7595704 9.95897343,54.6234257 9.95897343,46.9723246 C9.95897343,44.0977505 10.2783994,41.2958655 10.8845548,38.5985261 Z" id="Combined-Shape" fill="#BD2328" fill-rule="nonzero"></path>
+        <path d="M11.6364494,35.7687724 C14.842444,25.3438764 22.4071644,16.7542703 32.2688766,12.0087182 L35.6516257,19.0766696 C27.949072,22.8341346 22.0193131,29.5308805 19.4115423,37.6575158 L11.6364494,35.7687724 Z" id="Combined-Shape" fill="#F69936" fill-rule="nonzero"></path>
+        <path d="M35.007171,10.813911 C39.6262449,8.99904389 44.6728631,8 49.9589734,8 C55.430523,8 60.6454826,9.07036718 65.3953069,11.0079141 L62.010106,18.0809885 C58.290521,16.6066947 54.2221017,15.7944649 49.9589734,15.7944649 C45.8812052,15.7944649 41.9815821,16.537599 38.3949872,17.8924497 L35.007171,10.813911 Z" id="Combined-Shape" fill="#FCDD05" fill-rule="nonzero"></path>
+        <path d="M88.3502932,35.9949827 L80.5778207,37.8830896 C78.0596565,29.8201426 72.278427,23.1420614 64.7325979,19.3088135 L68.1169148,12.2375863 C77.8205349,17.062568 85.2345616,25.634065 88.3502932,35.9949827 Z" id="Combined-Shape" fill="#7ED321" fill-rule="nonzero"></path>
+        <path d="M72.8375094,15 L66.7948128,15 L72.8375094,15 Z M89.0844414,38.8290474 C89.6574681,41.4553863 89.9589734,44.1795499 89.9589734,46.9723246 C89.9589734,54.7168023 87.6404717,61.9336775 83.6428451,68 L77.3774587,63.0567407 C80.28571,58.3607166 81.9589734,52.856906 81.9589734,46.9723246 C81.9589734,44.8297007 81.737141,42.7375573 81.3146323,40.7165073 L89.0844414,38.8290474 Z" id="Combined-Shape" fill="#07A86E" fill-rule="nonzero"></path>
+        <g id="Group" transform="translate(3.000000, 2.000000)">
+            <text id="FAIR" font-family="Lato-Bold, Lato" font-size="4" font-weight="bold" fill="#000000">
+                <tspan x="43.166" y="4">FAIR</tspan>
+            </text>
+            <text id="GOOD" transform="translate(80.500000, 18.500000) rotate(52.000000) translate(-80.500000, -18.500000) " font-family="Lato-Bold, Lato" font-size="4" font-weight="bold" fill="#000000">
+                <tspan x="74.361" y="20">GOOD</tspan>
+            </text>
+            <text id="POOR" transform="translate(13.000000, 18.500000) rotate(-52.000000) translate(-13.000000, -18.500000) " font-family="Lato-Bold, Lato" font-size="4" font-weight="bold" fill="#000000">
+                <tspan x="7.242" y="20">POOR</tspan>
+            </text>
+            <text id="EXCELLENT" transform="translate(89.000000, 52.500000) rotate(100.000000) translate(-89.000000, -52.500000) " font-family="Lato-Bold, Lato" font-size="4" font-weight="bold" line-spacing="5" fill="#000000">
+                <tspan x="78.096" y="54">EXCELLENT</tspan>
+            </text>
+            <text id="VERY-POOR" transform="translate(4.500000, 52.500000) rotate(-100.000000) translate(-4.500000, -52.500000) " font-family="Lato-Bold, Lato" font-size="4" font-weight="bold" line-spacing="5" fill="#000000">
+                <tspan x="-6.828" y="54">VERY POOR</tspan>
+            </text>
+            <g id="Path" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use stroke="#979797" stroke-width="1" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

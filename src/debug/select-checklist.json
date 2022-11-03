@@ -1,0 +1,85 @@
+{
+  "context": {
+      "user": {
+          "segment_names": [
+              "banking_intent_disabled",
+              "default",
+              "live_chat_unavailable_on_platform"
+          ]
+      },
+      "api_version": "3.1",
+      "app_version": "2.3-897",
+      "model_version": "20190808033528"
+  },
+  "current_intent": "Card_Renew",
+  "current_sub_intent": "start_conversation",
+  "message_contents": [
+      {
+          "type": "TEXT",
+          "payload": {
+              "text": "Select all financial goals that apply:"
+          }
+      },
+      {
+        "type": "SELECT",
+        "payload": {
+            "mode": "CHECKLIST",
+            "min_select": 1,
+            "max_select": 2,
+            "options": [
+                {
+                    "value": "2345",
+                    "label": "Save for Retirement",
+                    "enabled": true,
+                    "question_display_text": "Save for Retirement"
+                },
+                {
+                    "value": "3456",
+                    "label": "Looking into Long Term Investments",
+                    "enabled": true,
+                    "question_display_text": "Looking into Long Term Investments"
+                },
+                {
+                    "value": "4535",
+                    "label": "Check Credit Score",
+                    "enabled": true,
+                    "question_display_text": "Check Credit Score"
+                },
+                {
+                    "value": "6590",
+                    "label": "Fix Credit Report Errors",
+                    "enabled": true,
+                    "question_display_text": "Fix Credit Report Errors"
+                },
+                {
+                    "value": "7485",
+                    "label": "Make/Revise a Budget",
+                    "enabled": true,
+                    "question_display_text": "Make/Revise a Budget"
+                },
+                {
+                    "value": "4256",
+                    "label": "Build an Emergency Savings Account",
+                    "enabled": true,
+                    "question_display_text": "Build an Emergency Savings Account"
+                },
+                {
+                    "value": "1356",
+                    "label": "Make Plan for Debt Repayment",
+                    "enabled": true,
+                    "question_display_text": "Make Plan for Debt Repayment"
+                },
+                {
+                    "value": "9561",
+                    "label": "Search for Lower Interest Rates",
+                    "enabled": true,
+                    "question_display_text": "Search for Lower Interest Rates"
+                }
+            ]
+        }
+    }
+  ],
+  "status": {
+      "code": "200"
+  }
+}

@@ -1,0 +1,21 @@
+@import '../../../styles/variables';
+
+.kai-button-template {
+   /* width: 400px; */
+   &:focus{
+    outline:none;
+    box-shadow: 0 0 5px 3px var(--highlight-color);
+  }
+}
+.kai-button-template .kai-content-button {
+    border: var(--card-item-border-size) solid #ccc;
+    margin: 10px 0 10px 0px;
+    border-radius: 8px;
+    padding: 8px 14px;
+    max-width: var(--text-bubble-and-button-max-width);
+    box-shadow: var(--shadow);
+}
+
+.kai-button-template .kai-content-button .fl-right {
+    float: right;
+}

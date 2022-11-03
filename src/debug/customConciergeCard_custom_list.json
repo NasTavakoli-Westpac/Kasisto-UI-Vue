@@ -1,0 +1,185 @@
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200"
+    },
+    "current_intent": "...",
+    "message_contents": [
+        {
+            "type": "TEXT",
+            "payload": {
+                "text": "Good Morning George!<br>Here is your daily summary for today."
+            }
+        },
+        {
+            "type": "CUSTOM",
+            "payload": {
+                "type": "MULTI_CONCIERGE_CARD",
+                "data": {
+                    "table_list": [
+                        {
+                            "title": "Daily Cash Positions",
+                            "highlight": {
+                                "label": "Accounts",
+                                "value": "14"
+                            },
+                            "subtitle": "Total Balance: $4,141,167.36",
+                            "table_data": {
+                                "data_type": "category",
+                                "title": "Daily Cash Positions",
+                                "items": [
+                                    {
+                                        "currency": "EUR (€)",
+                                        "# of Accounts": "6",
+                                        "% Change": "(+15.45%)",
+                                        "Balance (Current Day)": "$345,142.41"
+                                    },
+                                    {
+                                        "currency": "GBP (£)",
+                                        "# of Accounts": "3",
+                                        "% Change": "(-2.35%)",
+                                        "Balance (Current Day)": "$95,242.86"
+                                    },
+                                    {
+                                        "currency": "USD ($)",
+                                        "# of Accounts": "2",
+                                        "% Change": "(+1.75%)",
+                                        "Balance (Current Day)": "$94,515.13"
+                                    },
+                                    {
+                                        "currency": "JPY (¥)",
+                                        "# of Accounts": "2",
+                                        "% Change": "(+1.45%)",
+                                        "Balance (Current Day)": "$424,124.41"
+                                    },
+                                    {
+                                        "currency": "KRW (₩)",
+                                        "# of Accounts": "1",
+                                        "% Change": "(0.00%)",
+                                        "Balance (Current Day)": "$143,412.23"
+                                    }
+                                ]
+                            },
+                            "buttons": [
+                                {
+                                    "label": "Review All Accounts",
+                                    "type": "POSTBACK",
+                                    "payload": "Review All Accounts"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Payment Actions",
+                            "highlight": {
+                                "label": "Remaining Actions",
+                                "value": "214"
+                            },
+                            "subtitle": "2 Payments Where Rejected and Require Review",
+                            "table_data": {
+                                "data_type": "category",
+                                "title": "Payment Actions",
+                                "items": [
+                                    {
+                                        "Account": "1341",
+                                        "Payment Type": "Wire",
+                                        "Amount": "$1,214,144.24",
+                                        "Status": "Rejected"
+                                    },
+                                    {
+                                        "Account": "4241",
+                                        "Payment Type": "ACH",
+                                        "Amount": "$142,902.24",
+                                        "Status": "Rejected"
+                                    },
+                                    {
+                                        "Account": "5262",
+                                        "Payment Type": "Payroll",
+                                        "Amount": "$23,002.24",
+                                        "Status": "Pending"
+                                    },
+                                    {
+                                        "Account": "5202",
+                                        "Payment Type": "Wire",
+                                        "Amount": "$11,222.02",
+                                        "Status": "Pending"
+                                    },
+                                    {
+                                        "Account": "0225",
+                                        "Payment Type": "ACH",
+                                        "Amount": "$1,222.99",
+                                        "Status": "Pending"
+                                    }
+                                ]
+                            },
+                            "buttons": [
+                                {
+                                    "label": "Review Payment Actions",
+                                    "type": "POSTBACK",
+                                    "payload": "Review Payment Actions"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Entitlement Requests",
+                            "highlight": {
+                                "label": "Remaining Actions",
+                                "value": "16"
+                            },
+                            "subtitle": "5 Entitlements are over a week old",
+                            "table_data": {
+                                "data_type": "category",
+                                "title": "Entitlement Requests",
+                                "items": [
+                                    {
+                                        "User": "Bob Smith",
+                                        "Entitlement": "Wire Transfer",
+                                        "Date of Request": "9/16/19"
+                                    },
+                                    {
+                                        "User": "Mary Ellis",
+                                        "Entitlement": "FX Payment",
+                                        "Date of Request": "9/17/19"
+                                    },
+                                    {
+                                        "User": "Tom Brady",
+                                        "Entitlement": "Payroll",
+                                        "Date of Request": "9/17/19"
+                                    },
+                                    {
+                                        "User": "Kim Jones",
+                                        "Entitlement": "Wire Transfer",
+                                        "Date of Request": "9/18/19"
+                                    },
+                                    {
+                                        "User": "Maria Garcia",
+                                        "Entitlement": "Payroll",
+                                        "Date of Request": "9/23/19"
+                                    }
+                                ]
+                            },
+                            "buttons": [
+                                {
+                                    "label": "Review Entitlements Requests",
+                                    "type": "POSTBACK",
+                                    "payload": "Review Entitlements Requests"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "payload": "Largest Positive Change",
+            "type": "TEXT",
+            "display_text": "Largest Positive Change"
+        },
+        {
+            "payload": "Largest Negative Change",
+            "type": "TEXT",
+            "display_text": "Largest Negative Change"
+        }
+    ]
+}

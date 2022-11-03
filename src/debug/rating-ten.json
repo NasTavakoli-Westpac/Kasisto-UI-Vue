@@ -1,0 +1,44 @@
+{
+    "context": {
+		"user": {
+			"segment_names": [
+				"banking_intent_disabled",
+				"default",
+				"live_chat_unavailable_on_platform"
+			]
+		},
+		"api_version": "3.1",
+		"app_version": "2.3-897",
+		"model_version": "20190808033528"
+	},
+    "message_contents": [
+        {
+            "type": "TEXT",
+            "payload": {
+                "text": "How likely is it that you would recommennd KAI to a friend or colleague?"
+            }
+        },
+        {
+            "type": "SELECT",
+            "payload": {
+                "mode": "RATING",  
+                "input_type": "RATING_10",   
+                "options": [
+                    { "value": "1", "label": "⭐" },
+                    { "value": "2", "label": "⭐" },
+                    { "value": "3", "label": "⭐" },
+                    { "value": "4", "label": "⭐" },
+                    { "value": "5", "label": "⭐" },
+                    { "value": "6", "label": "⭐" },
+                    { "value": "7", "label": "⭐" },
+                    { "value": "8", "label": "⭐" },
+                    { "value": "9", "label": "⭐" },
+                    { "value": "10", "label": "⭐" }
+                ]
+            }
+        }
+    ],
+    "status": {
+        "code": "200"
+    }
+}

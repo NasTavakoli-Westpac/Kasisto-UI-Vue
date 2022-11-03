@@ -1,0 +1,102 @@
+@import '../../../styles/variables';
+
+.kai-card-medium-item{
+  height: initial !important;
+}
+
+.kai-card-piechart {
+  width: 100%;
+  vertical-align: bottom;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  transition: opacity 150ms linear;
+  user-select: none;
+  max-width: calc(300px - 1px * 2);
+}
+
+#chart-wrap {
+  max-width: 650px;
+  position: relative;
+  padding: 13px 0px 0px 0px;
+}
+
+#chart {
+  max-width: 650px;
+}
+
+.kai-medium-legend-container {
+  padding: 0px 0px 20px 0px;
+  &.disable{
+    display: none;
+  }
+}
+
+.kai-medium-legend-item {
+  max-width: 650px;
+  left: 80px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 5px;
+
+}
+
+.kai-medium-legend-left{
+  float: left;
+   width: 100%;
+  position: relative;
+}
+
+.kai-medium-legend-right{
+  float: right;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.kai-medium-legend-text {
+  padding: 0px 20px 0px 30px;
+  font-size: var(--font-sub-title-size);
+  vertical-align: middle;
+}
+
+
+.kai-medium-title {
+  padding: 10px 20px 10px 20px;
+  min-width:300px;
+  font-weight: bold;
+  font-size: var(--font-title-size);
+}
+
+
+.kai-medium-legend-color {
+  border-radius: 15px;
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  top: 5px;
+  &.active {
+    width: 20px;
+    top: 0px;
+    height: 20px;
+    border-radius: 15px;
+  }
+}
+
+.kai-tooltip-container{
+  padding: 10px;
+
+  &.static {
+    background: var(--chart-tooltip-color);
+    color: var(--chart-tooltip-text-color);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.apexcharts-text.apexcharts-pie-label{
+  fill: var(--chart-percent-text-color);
+}
+
+.apexcharts-canvas {
+ margin: 0 auto;
+}

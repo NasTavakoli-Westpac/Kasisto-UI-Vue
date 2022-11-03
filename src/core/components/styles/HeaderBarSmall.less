@@ -1,0 +1,68 @@
+@import '../../../styles/variables';
+
+#header-bar-small {
+
+  .webview-header-wrapper {
+    //height: var(--header-bar-height);
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 12;
+  }
+  
+  .webview-header-wrapper .webview-header {
+    //height: calc(var(--header-bar-height) - var(--header-bar-bottom-height));
+    //line-height: 50px;
+    //background-color: var(--component-background-color);
+    height: 50px;
+    background-color:var(--component-background-color);
+
+    color: #999;
+  }
+  
+  
+  .webview-header-wrapper .minimize-webview {
+    cursor: pointer;
+    float: left;
+    width: 20px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 13px;
+    margin-left: 25px;
+  }
+  
+  .icon-minimize-webview {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    display: -webkit-inline-box;
+    vertical-align: middle;
+  
+  }
+  
+  .webview-header-wrapper .webview-header .right-button {
+    position: absolute;
+    right: 20px;
+  }
+  
+  .webview-header-wrapper .webview-header .webview-title {
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    //line-height: var(--header-bar-height);
+    line-height: 50px;
+  }
+  
+  .webview-header-bottom-padding{
+    height:10px;
+    width: 100%;
+    background: linear-gradient(0deg, #ffffff00, #ffffff);
+  }
+
+}
+
+.kai_container.widget.smallHeaderBar {
+  top:40px;
+}

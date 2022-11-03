@@ -1,0 +1,67 @@
+{
+	"context": {
+		"user": {
+			"segment_names": [
+				"banking_intent_disabled",
+				"default",
+				"live_chat_unavailable_on_platform"
+			]
+		},
+		"api_version": "3.1",
+		"app_version": "2.3-897",
+		"model_version": "20190808033528"
+	},
+	"current_intent": "Card_Renew",
+	"current_sub_intent": "start_conversation",
+	"message_contents": [
+		{
+			"type": "SELECT",
+			"payload": {
+				"mode": "LIST",
+				"options": [
+                    {
+						"payload": {
+							"medium": {
+								"medium_url": "WaldnerLucia.jpg"
+							},
+							"title": "Mary Smith - Financial Advisor",
+							"subtitle": "Financial Advisor with <b>4</b> <i>years of experience</i>. <span class='select-list-txt-green'>Mary</span> focuses on advising business professionals and small business owners looking for smarter ways to invest and manage their money."
+						},
+						"value": "7890",
+						"enabled": true,
+						"label": "Learn More"
+					},
+					{
+						"payload": {
+							"medium": {
+								"medium_url": "Select_List2.jpg"
+							},
+							"title": "Thomas Jones - Senior Financial Advisor",
+							"subtitle": "Senior Financial Advisor with <b>20</b> <i>years of experience</i>. <span class='select-list-txt-green'>Thomas</span> excels at researching the marketplace and recommending the most appropriate <b>products and services</b> available, ensuring that clients are aware of products that best meet thier needs."
+						},
+						"value": "7890",
+						"enabled": true,
+						"label": "Learn More"
+					},
+					{
+						"payload": {
+							"medium": {
+								"medium_url": "Select_List3.jpg"
+							},
+							"title": "John Doe - Financial Advisor",
+							"subtitle": "Financial Advisor with <b>5</b> <i>years of experience</i>. <span class='select-list-txt-green'>John</span> provides excellent financial planning and support to clients in order to help them achieve their <b>personal financial goals</b>."
+						},
+						"value": "7890",
+						"enabled": true,
+						"label": "Learn More"
+					}
+				],
+				"min_select": 1,
+				"max_select": 2
+			}
+		}
+	],
+	"status": {
+		"code": "200"
+	}
+}

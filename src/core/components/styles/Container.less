@@ -1,0 +1,48 @@
+@import '../../../styles/variables';
+    body{
+      background: var(--bottom-bar-color) !important;
+    }
+
+
+#kai-container {
+    position: absolute;
+    background: linear-gradient(0deg, var(--main-background-color), #ffffff);
+    left: 0;
+    right: 0;
+    bottom: var(--bottom-bar-height);
+    padding-bottom: 50px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overflow-x:hidden;
+    // z-index: 10;
+ }
+
+ .kai_container{
+  top: 0px;
+  &.smallHeaderBar{
+  top: 40px;
+  }
+  &.widget {
+   top: calc(var(--header-bar-height) - var(--header-bar-bottom-height));
+  }
+ }
+
+ .kai-inner-container {
+   padding: 20px 0px 10px 0px;
+  }
+
+
+ #kai-component-bottom {
+  position: fixed;
+  bottom: var(--bottom-bar-height);
+ }  
+ 
+.screen-reader-carousel-buttons {
+  display: none;
+}
+
+
+/* Fixes for responsive webview */
+#kai-container.shortcut_widget {
+  height: calc(100% - var(--header-bar-height) - var(--bottom-bar-height));
+}

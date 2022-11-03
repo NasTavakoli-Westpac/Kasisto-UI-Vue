@@ -1,0 +1,37 @@
+{
+  "context": {
+    "user": {}
+  },
+  "message_contents": [
+    {
+      "type": "TEXT",
+      "payload": {
+        "text": "please select one of the following"
+      }
+    },
+    {
+      "type": "SELECT",
+      "payload": {
+        "mode": "LIST",
+        "input_type": "NUMBER",
+        "options": [
+          {
+            "payload": {},
+            "value": "visa",
+            "enabled": true
+          },
+          {
+            "payload": {},
+            "value": "amex",
+            "enabled": true
+          }
+        ],
+        "min_select": 1,
+        "max_select": 1
+      }
+    }
+  ],
+  "status": {
+    "code": "200"
+  }
+}

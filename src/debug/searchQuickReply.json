@@ -1,0 +1,20 @@
+{
+  "message_contents": [
+    {
+      "type": "TEXT",
+      "payload": {
+        "text": "I've dropped the ball. Could you rephrase?"
+      }
+    }
+  ],
+  "quick_replies": [
+    {
+        "type": "WEB_SEARCH_SILVERCLOUD",
+        "payload": "",
+        "label": "Search on the web"
+    }
+  ],
+  "status": {
+    "code": "200"
+  }
+}

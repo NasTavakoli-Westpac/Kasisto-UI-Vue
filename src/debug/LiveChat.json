@@ -1,0 +1,135 @@
+[{
+    "context": {
+        "api_version": "2.1.2",
+        "app_version": "1.6-11064",
+        "model_version": "20181026044439"
+    },
+    "status": {
+        "code": "200"
+    },
+    "state": "83289",
+    "message_contents": [
+        {
+            "payload": {
+                "type": "LIVE_CHAT_NOTIFY_CUSTOMER_QUEUE_STATE",
+                "payload": {},
+                "message_contents": [
+                    {
+                        "type": "TEXT",
+                        "payload": {
+                            "text": "Welcome to Live Chat. Please wait while we connect you to the next available live agent."
+                        }
+                    }
+                ]
+            },
+            "type": "EVENT",
+            "time_created": "2019-06-20T04:56:47Z"
+        }
+    ]
+},{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200"
+    },
+    "state": "2397",
+    "message_contents": [
+        {
+            "type": "EVENT",
+            "payload": {
+                "type": "LIVE_CHAT_NOTIFY_AGENT_CONNECTED",
+                "payload": {
+                    "name": "Jane",
+                    "agent_id": "agent_007"
+                },
+                "message_contents": [
+                    {
+                        "type": "TEXT",
+                        "payload": {
+                            "text": "You are connected to Jane."
+                        }
+                    }
+                ]
+            },
+            "time_created": "2018-06-27T08:11:53Z"
+        }
+    ]
+},
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "message_contents": [
+        {
+            "payload": {
+                "message_contents": [
+                    {
+                        "payload": {
+                            "text": "Jun Quan is typing ..."
+                        },
+                        "type": "TEXT"
+                    }
+                ],
+                "payload": {
+                    "is_typing": true
+                },
+                "type": "LIVE_CHAT_SEND_AGENT_STATE"
+            },
+            "time_created": "2018-06-21T09:45:40Z",
+            "type": "EVENT"
+        }
+    ],
+    "state": "2695702",
+    "status": {
+        "code": "200"
+    }
+},
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200"
+    },
+    "state": "2375",
+    "message_contents": [
+        {
+            "type": "TEXT",
+            "payload": {
+                "text": "Hello! How can I help you today?"
+            },
+            "time_created": "2018-06-27T07:48:14Z"
+        }
+    ]
+},
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200"
+    },
+    "state": "2684081",
+    "message_contents": [
+        {
+            "type": "EVENT",
+            "payload": {
+                "type": "LIVE_CHAT_NOTIFY_SESSION_STOPPED",
+                "payload": {
+                    "reason": "AGENT_END_SESSION"
+                },
+                "message_contents": [
+                    {
+                        "type": "TEXT",
+                        "payload": {
+                            "text": "Chat Session with Live Agent has ended."
+                        }
+                    }
+                ]
+            },
+            "time_created": "2018-06-11T09:35:06Z"
+        }
+    ]
+}
+]

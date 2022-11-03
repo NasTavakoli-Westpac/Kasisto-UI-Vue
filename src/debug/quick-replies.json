@@ -1,0 +1,65 @@
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200"
+    },
+    "current_intent": "VpaUnknownRequest",
+    "message_contents": [
+        {
+            "type": "TEXT",
+            "payload": {
+                "text": "Quick replies are used to guide users to take follow up actions."
+            }
+        }
+    ],
+    "quick_replies": [
+        {
+            "type": "POSTBACK",
+            "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH",
+            "label": "👍"
+        },
+        {
+            "type": "TEXT",
+            "display_text": "👎",
+            "payload": "9m7dx1o5oBXjsnIlDay1pIUEJCAw2"
+        },
+        {
+            "type": "LOCATION",
+            "display_text": "",
+            "payload": "",
+            "image_url": "",
+            "label": "Share location"
+        },
+        {
+            "type": "POSTBACK",
+            "payload": "[encrypted payload]",
+            "label": "Show my transactions",
+            "style": "FOLLOWUP"
+        },
+        {
+            "payload": "Spending patterns",
+            "type": "TEXT_FOLLOWUP",
+            "question_display_text": "Spending patterns display",
+            "label": "Spending patterns",
+            "image_url": "https://pbs.twimg.com/profile_images/1173583566678241282/qj2KY0Z5_400x400.jpg"
+        },
+        {
+            "payload": "Lost card",
+            "type": "TEXT",
+            "label": "Lost card"
+        },
+        {
+            "payload": "Routing number",
+            "type": "TEXT",
+            "display_text": "Routing number"
+        },
+        {
+            "payload": "Teach me a term",
+            "type": "TEXT",
+            "display_text": "Teach me a term",
+            "image_url": "https://kasisto.com/wp-content/themes/kasisto/img/kas-kasisto-logo-black.png"
+        }
+    ]
+}

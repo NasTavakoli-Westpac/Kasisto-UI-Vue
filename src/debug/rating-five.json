@@ -1,0 +1,39 @@
+{
+    "context": {
+		"user": {
+			"segment_names": [
+				"banking_intent_disabled",
+				"default",
+				"live_chat_unavailable_on_platform"
+			]
+		},
+		"api_version": "3.1",
+		"app_version": "2.3-897",
+		"model_version": "20190808033528"
+	},
+    "message_contents": [
+        {
+            "type": "TEXT",
+            "payload": {
+                "text": "On a scale of 1 to 5, with 1 being a poor experience and 5 being an excellent one, how would you rate our conversation?"
+            }
+        },
+        {
+            "type": "SELECT",
+            "payload": {
+                "mode": "RATING",  
+                "input_type": "RATING_5",   
+                "options": [
+                    { "value": "1", "label": "⭐" },
+                    { "value": "2", "label": "⭐⭐" },
+                    { "value": "3", "label": "⭐⭐⭐" },
+                    { "value": "4", "label": "⭐⭐⭐⭐" },
+                    { "value": "5", "label": "⭐⭐⭐⭐⭐" }
+                ]
+            }
+        }
+    ],
+    "status": {
+        "code": "200"
+    }
+}

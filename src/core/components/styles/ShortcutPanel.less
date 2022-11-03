@@ -1,0 +1,190 @@
+
+.shortcut-wrapper {
+  width: 385px;
+  position: fixed; 
+  z-index: 123;
+  top: calc(var(--header-bar-height));
+  right: calc(0% - 388px);
+  transition: all .5s ease-in-out; 
+  bottom: var(--bottom-bar-height);
+}
+
+.shortcut-handle {
+    position: absolute;
+    left: calc(0% - 20px);
+    top: calc(50% - 50px);
+    height: 100px;
+    width: 20px;
+    background: #444A58;
+    border-radius: 10px 0 0 10px;
+    float: left;
+    transition: all .3s ease-in-out; 
+    display: flex;
+    cursor: pointer;
+    
+         img {
+            width: 7.6px;
+          margin: auto;  /* Magic! */
+         }
+
+    &.anim{
+        width: 25px
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 5px 5px var(--highlight-color);
+    }
+}
+
+.shortcut-open {
+    right: calc(0% - 20px) !important;
+}
+
+
+.shortcut_handle_open {
+    top: 0;
+    height: 100%;
+}
+
+.shortcut-handle img {
+    position: absolute;
+    top: calc(50% - 12.5px);
+    left: 6px;
+}
+
+.shortcut-header {
+    font-weight: bold;
+    margin-top: 25px;
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 5px 3px var(--highlight-color);
+    }
+}
+
+.shortcut-item-wrapper {
+    margin-top: 10px;
+}
+
+.shortcut-item {
+    background-color: #ccc;
+    width: auto;
+    padding: 10px;
+    border-radius: 10px; 
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 10px 5px 0;    
+
+    &:focus {
+        outline: none;
+        box-shadow: 0 0 5px 3px var(--highlight-color);
+    }
+}
+
+
+.shortcut-item:hover {
+    background-color: #999;
+}
+
+.shortcut-content-header {    
+    font-weight: bold;
+    padding: 20px 20px 0px 20px;
+}
+
+
+.shortcut-content {
+    padding: 20px 20px 0px 20px;
+    font-size: 15px;
+    background-color: #fff;
+    box-shadow: 5px 1px 10px rgba(0,0,0,.25);
+    height:100%;
+    overflow-y: auto;
+      h1 {
+          padding: 0px;
+          margin: 0px;
+          font-size: 18px;
+          font-weight: bold;
+          text-align: center;
+      }
+
+      img {
+        margin-top: -2px;
+      }
+
+      p {
+        padding: 0;
+      }
+}
+
+.shortcut-content-inner {
+     padding: 10px 20px 20px 20px;
+}
+
+.clear-it {
+    clear: both;
+}
+
+.vm--modal {
+    border-radius: 15px !important;  
+}
+
+.close-modal {
+    font-size: 20px;
+    font-weight: bold;
+    position:absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.mouse-pointer {
+    cursor: pointer;
+    cursor: hand;
+}
+
+
+
+.shortcut-container{
+    height: calc(100% - var(--header-bar-height) - var(--bottom-bar-height) - 1px);
+  }
+  
+  .shortcut_widget .shortcut-wrapper{
+    width: 100%;
+    position: relative;
+    right: -100%;
+    height: 100%;
+    top: calc(var(--header-bar-height));
+  }
+  
+  .shortcut_widget .shortcut-open{
+      right: calc(0% - 20px) !important;
+  }
+  
+  .shortcut-content{
+    display: none;
+  }
+
+  .shortcut_content_open {
+    display: block;
+  }
+  
+  .shortcut-handle img {
+      top: calc(50% - 12.5px);
+      left: 5px;
+  }
+  
+  .shortcut_handle_open img {
+      top: calc(50% - 12.5px);
+      left: 7px;
+  }
+
+
+@media screen and (max-width: 385px) {
+    .shortcut-wrapper {
+        
+        width: 100%;
+        position: relative;
+        right: -100%;
+        height: 100%;
+    }
+}

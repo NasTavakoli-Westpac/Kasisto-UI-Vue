@@ -1,0 +1,359 @@
+
+    {
+       "themeChanger":[
+          {
+             "section":{
+                "header":"Main Colors",
+                "title":[{
+                   "name":"Primary Action Color",
+                   "cssVariable":"--primary-action-color",
+                   "size":false
+                  },
+                {
+                    "name":"Secondary Action Color",
+                    "cssVariable":"--secondary-action-color",
+                    "size":false
+                  },
+                  {
+                     "name":"Highlight Color",
+                     "cssVariable":"--highlight-color",
+                     "size":false
+                   }
+                ]
+             }
+          },
+          {
+            "section":{
+               "header":"Font Colors",
+               "title":[
+               {
+                  "name":"Text Color",
+                  "cssVariable":"--text-color",
+                  "size":false
+               },
+               {
+                   "name":"Primary Action Text Color",
+                   "cssVariable":"--primary-action-text-color",
+                   "size":false
+                 }
+               ]
+            }
+         },
+         {
+           "section":{
+              "header":"Main Font Size",
+              "title":[
+              {
+                 "name":"Title Size",
+                 "cssVariable":"--font-title-size",
+                 "size":true
+              },
+              {
+                  "name":"General Text Size",
+                  "cssVariable":"--font-sub-title-size",
+                  "size":true
+               }
+              ]
+           }
+        },
+        {
+          "section":{
+             "header":"Backgrounds",
+             "title":[
+             {
+                "name":"Main Background Color",
+                "cssVariable":"--main-background-color",
+                "size":false
+             },
+             {
+                 "name":"Component Background Color",
+                 "cssVariable":"--component-background-color",
+                 "size":false
+              }
+             ]
+          }
+       },
+       {
+         "section":{
+            "header":"Hover Select States",
+            "title":[
+            {
+               "name":"Color Change on Hover",
+               "cssVariable":"--hover-color",
+               "size":false
+            },
+            {
+                "name":"Text Color Change on Hover",
+                "cssVariable":"--hover-text-color",
+                "size":false
+             },
+             {
+                 "name":"Color Change When Selected",
+                 "cssVariable":"--select-state-color",
+                 "size":false
+              },
+              {
+                  "name":"Text Color Change When Selected",
+                  "cssVariable":"--select-state-text-color",
+                  "size":false
+               }
+            ]
+         }
+        },
+        {
+          "section":{
+             "header":"Card Text Expand",
+             "title":[
+             {
+                "name":"Bg Gradiant Starting Color (RGB)",
+                "cssVariable":"--background-gradient-starting-color-rgb",
+                "size":false
+             },
+             {
+               "name":"Bg Gradiant Ending Color (RGB)",
+               "cssVariable":"--background-gradient-ending-color-rgb",
+               "size":false
+              }
+             ]
+          }
+         },
+         {
+           "section":{
+              "header":"Drop Shadow",
+              "title":[
+              {
+                 "name":"Drop Shadow",
+                 "cssVariable":"--shadow",
+                 "size":false
+              }
+             ]
+           }
+          },
+          {
+            "section":{
+               "header":"All Message Bubbles Components",
+               "title":[
+               {
+                  "name":"Max Height",
+                  "cssVariable":"--bubble-text-max-height",
+                  "size":true
+               },
+               {
+                  "name":"Max Width",
+                  "cssVariable":"--text-bubble-and-button-max-width",
+                  "size":true
+               },
+               {
+                  "name":"Font Size",
+                  "cssVariable":"--text-bubble-font-size",
+                  "size":true
+               },
+               {
+                  "name":"Nbest Size",
+                  "cssVariable":"--nbest-text-font-size",
+                  "size":true
+               }
+              ]
+            }
+           },
+           {
+            "section":{
+               "header":"Left Message Bubbles",
+               "title":[
+               {
+                  "name":"Message Color",
+                  "cssVariable":"--left-message-color",
+                  "size":false
+               },
+               {
+                  "name":"Message Text Color",
+                  "cssVariable":"--left-message-text-color",
+                  "size":false
+               }
+              ]
+            }
+           },
+           {
+            "section":{
+               "header":"Right Message Bubbles",
+               "title":[
+               {
+                  "name":"Message Color",
+                  "cssVariable":"--right-message-color",
+                  "size":false
+               },
+               {
+                  "name":"Message Text Color",
+                  "cssVariable":"--right-message-text-color",
+                  "size":false
+               }
+              ]
+            }
+           },
+           {
+            "section":{
+               "header":"Bottom Bar",
+               "title":[
+               {
+                  "name":"Color",
+                  "cssVariable":"--bottom-bar-color",
+                  "size":false
+               },
+               {
+                  "name":"Height",
+                  "cssVariable":"--bottom-bar-height",
+                  "size":true
+               }
+              ]
+            }
+           },
+           {
+            "section":{
+               "header":"Header Bar",
+               "title":[
+               {
+                  "name":"Height",
+                  "cssVariable":"--header-bar-height",
+                  "size":true
+               }
+              ]
+            }
+           },
+           {
+            "section":{
+               "header":"Cards",
+               "title":[
+               {
+                  "name":"Max Height (ie: Carousel)",
+                  "cssVariable":"--card-item-max-height",
+                  "size":true
+               },
+               {
+                  "name":"Max Height (ie: List)",
+                  "cssVariable":"--card-large-item-max-height",
+                  "size":true
+               },
+               {
+                  "name":"Button Font Size",
+                  "cssVariable":"--card-button-font-size",
+                  "size":true
+               },
+               {
+                  "name":"Header Font Size",
+                  "cssVariable":"--card-header-font-size",
+                  "size":true
+               },
+               {
+                  "name":"Item Width",
+                  "cssVariable":"--card-item-width",
+                  "size":true
+               },
+               {
+                  "name":"Item Border Size",
+                  "cssVariable":"--card-item-border-size",
+                  "size":true
+               }
+              ]
+            }
+           },
+           {
+            "section":{
+               "header":"Buttons/Quick Replies",
+               "title":[
+               {
+                  "name":"Font Size",
+                  "cssVariable":"--inline-button-font-size",
+                  "size":true
+               }
+              ]
+            }
+           },
+           {
+            "section":{
+               "header":"Typing Indicator",
+               "title":[
+               {
+                  "name":"Size",
+                  "cssVariable":"--typing-indicator-size",
+                  "size":true
+               }
+              ]
+            }
+           },
+           {
+            "section":{
+               "header":"Chart Formating",
+               "title":[
+               {
+                  "name":"Chart Color 1",
+                  "cssVariable":"--primary-action-color",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 2",
+                  "cssVariable":"--chart-color-2",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 3",
+                  "cssVariable":"--chart-color-3",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 4",
+                  "cssVariable":"--chart-color-4",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 5",
+                  "cssVariable":"--chart-color-5",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 6",
+                  "cssVariable":"--chart-color-6",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 7",
+                  "cssVariable":"--chart-color-7",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 8",
+                  "cssVariable":"--chart-color-8",
+                  "size":false
+               },{
+                  "name":"Chart Color 9",
+                  "cssVariable":"--chart-color-9",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 10",
+                  "cssVariable":"--chart-color-10",
+                  "size":false
+               },{
+                  "name":"Chart Color 11",
+                  "cssVariable":"--chart-color-11",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 12",
+                  "cssVariable":"--chart-color-12",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 13",
+                  "cssVariable":"--chart-color-13",
+                  "size":false
+               },
+               {
+                  "name":"Chart Color 14",
+                  "cssVariable":"--chart-color-14",
+                  "size":false
+               }
+              ]
+            }
+           }
+       ]
+    }

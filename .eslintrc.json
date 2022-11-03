@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "plugin:vue/essential",
+    "standard"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly",
+    "Kai": "writable",
+    "kserver": "writable",
+    "$store": "writable",
+    "$": "writable",
+    "moment": "writable",
+    "jQuery": "writable",
+    "Hammer": "writable",
+    "injectedJS": "readonly",
+    "execNativeMethod": "readonly",
+    "ENV": "writable"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "vue"
+  ],
+  "rules": {}
+}

@@ -1,0 +1,36 @@
+{
+  "context": {
+    "user": {
+      "segment_names": [
+        "a1b1",
+        "webview"
+      ]
+    },
+    "api_version": "3.1",
+    "app_version": "2.3-13775",
+    "model_version": "model-kai-en_US-2019-12-13-d535bd5a-48ac-488c-8f9b-51da5a433c86",
+    "data_version": "model-kai-en_US-2019-12-13-d535bd5a-48ac-488c-8f9b-51da5a433c86"
+  },
+  "current_intent": "Card_Renew_JK",
+  "current_sub_intent": "input_override_testing",
+  "message_contents": [
+    {
+      "type": "TEXT",
+      "payload": {
+        "text": "What is the expiration date of your card 2345 ?"
+      }
+    }
+  ],
+  "quick_replies": [
+    {
+      "type": "DATE",
+      "question_display_text": "Select a Date",
+      "label": "Select a Date",
+      "image_url": "calendar-icon.png"
+    }
+  ],
+  "status": {
+    "code": "200"
+  },
+  "input_type": "DATE"
+}

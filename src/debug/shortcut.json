@@ -1,0 +1,109 @@
+{
+  "status": {
+    "code": "200"
+  },
+  "message_contents": [
+    {
+      "payload": {
+        "type": "CUSTOMER_SHORTCUTS",
+        "message_contents": [
+          {
+            "type": "CARD",
+            "payload": {
+              "subtitle": "The questions you’ve asked me most frequently",
+              "buttons": [
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKfXTWg34VmCE+6EltIozi4el3j/8xr9wypuoj7ZMgXn+mfwVHlV2U5LoYcQEl3he9CrO1xnbqqWqiQ+8ifgVYtZKhtYCpqOW5dO8M6/wz4PD",
+                  "label": "Tell me a story."
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKePaV8bRBVLPV1m211bmVSdT4klHXyiub4Y2yMKlVVUFmfwVHlV2U5LoYcQEl3he9DnZmU0zFY1WfLcZBazZIeJKhtYCpqOW5dO8M6/wz4PD",
+                  "label": "How is it going?"
+                },
+                {
+                  "type": "INTENT",
+                  "intent": {
+                    "name": "kcb_edit_budget"
+                  },
+                  "label": "Edit budget"
+                }
+              ],
+              "title": "My Shortcuts"
+            }
+          },
+          {
+            "type": "CARD",
+            "payload": {
+              "subtitle": "Things we’d like to bring to your attention",
+              "buttons": [
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKWeAk6uWVJ//EcEE+TM663EM/a2TG+TgfrJno5/mpwXgNZCbGSLetjPXl2wd3qjr1VfdkjOOuDqrtYgkNtK3gCYC8vpK+eDiPNxQeAwN1how",
+                  "label": "Earning reward points"
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKYsaBgIj7RIApAkScuTR+Eu/3b8jpMSJKabcfrGHPXTMGbuvtCif88iHe4P8Eh5wn4z/sHwMi7nR4hsw78z4vtFjQcmohkaIGWe9lfMuVfM4",
+                  "label": "Reward point expiry "
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKTwP+R8jZ+wg4Vhx2zAnjWXRdyHYzr0fYZEhQjL4UORJmfwVHlV2U5LoYcQEl3he9AbDJZQyNOwuOg4T18uVkFxr86iQVE+pH1/9HW+iuzrb",
+                  "label": "Apply for loans "
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKQwZ1VHf3r0nJ7ynF/6kmMdnmyRqFnWIWBKBQ5/Qn6AKZKsTqH/wQKawYBx1pZLFGlLROvO6aYT8la/pBD2vvhlrLBnQqrdL9tcsTz6BLFZk",
+                  "label": "Make a mobile payment"
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKfXTWg34VmCE+6EltIozi4cFXfCXp7TVA/8+cVYdMptoqG9hhcBvmSTngYTH/bn4T3yvic8jqfXT1jL6sjEwbwFwFlhsIrDgkYuzW0tDTL5t",
+                  "label": "Tell me about Covid19 relief"
+                }
+              ],
+              "title": "What’s New"
+            }
+          }
+        ]
+      },
+      "type": "EVENT",
+      "time_created": "2021-04-16T13:24:41Z"
+    },
+    {
+      "payload": {
+        "type": "CUSTOMER_SHORTCUTS",
+        "message_contents": [
+          {
+            "type": "CARD",
+            "payload": {
+              "subtitle": "The questions that others are asking most frequently",
+              "buttons": [
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKfXTWg34VmCE+6EltIozi4el3j/8xr9wypuoj7ZMgXn+mfwVHlV2U5LoYcQEl3he9CrO1xnbqqWqiQ+8ifgVYtZKhtYCpqOW5dO8M6/wz4PD",
+                  "label": "Tell me a story."
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKePaV8bRBVLPV1m211bmVSdT4klHXyiub4Y2yMKlVVUFmfwVHlV2U5LoYcQEl3he9DnZmU0zFY1WfLcZBazZIeJKhtYCpqOW5dO8M6/wz4PD",
+                  "label": "How is it going?"
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKaEI7RPKJC7ylzUCsl2Jvpt+vHVZrT+GFN5901v+TiXRzwwfqongMb0T6jkUVDt7LLxZl+BNvWqbsJWnpeymPR4FcMAOLDJaTT42hPF+rHhd",
+                  "label": "What can you do for me?"
+                }
+              ],
+              "title": "Trending Topics"
+            }
+          }
+        ]
+      },
+      "type": "EVENT",
+      "time_created": "2021-04-16T13:24:41Z"
+    }
+  ]
+}

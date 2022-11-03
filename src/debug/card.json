@@ -1,0 +1,28 @@
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200"
+    },
+    "current_intent": "VpaGreeting",
+    "message_contents": [
+        {
+            "type": "CARD",
+            "payload": {
+                "medium": {
+                    "medium_url": "https://s3.amazonaws.com/kaiassets/tutorial/v2/txn+search.png"
+                },
+                "title": "Spending patterns",
+                "subtitle": "Ask me for your transactions by account, amount, date, date range, or category.",
+                "buttons": [
+                    {
+                        "label": "LEARN MORE",
+                        "type": "HYPERLINK",
+                        "payload": "https://kasisto.com/"
+                    }
+                ]
+            }
+        }
+    ]
+}

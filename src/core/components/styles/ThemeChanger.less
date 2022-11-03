@@ -1,0 +1,230 @@
+@import '../../../styles/variables';
+
+.themeContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background: #F2F2F2;
+    -webkit-box-shadow: -1px 1px 15px -6px rgba(0,0,0,0.71); 
+    box-shadow: -1px 1px 15px -6px rgba(0,0,0,0.71);
+
+}
+
+.themeHeader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    margin-left: 0px
+}
+
+.themeColorBox {
+    width: 25px;
+    height: 25px;
+    border: 1px #999 solid;
+    border-radius: 5px;
+    float:right;
+    margin-right: 5px;
+}
+
+.themeSizeBox {
+    float:right;
+    margin-right: 5px; 
+}
+
+.themeListHeader {
+    background-color:var(--secondary-action-color);
+    padding: 10px;
+    color: #ffffff;
+}
+
+.themeItemList {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.webviewStyle {
+    display: block;
+    background-color: #F2F2F2;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    border-left: 1px solid #F2F2F2;
+    height: 35.5px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.closeThemeToolbar {
+    position: absolute;
+    top: -8px;
+    left: 14px;
+    cursor: pointer;
+    box-sizing: border-box;
+    cursor: pointer;
+    //height: 46px;
+    padding: 3px 0 0 0;
+    font-size: 30px;
+    border-radius: 3px;
+    color: #aaaaaa;
+
+      img {
+        width: 40%;
+      }
+}
+
+.styleInput {
+    margin-left: 8px;
+    position: inherit;
+    margin-top: 2px;
+    width: 100%;
+}
+
+.styleInfo {
+    font-size: 10px;
+    width: 187px;
+    text-align: center;
+    margin-top: 6px;
+    margin-left: 50px;
+}
+
+.availableStylesContainer {
+    position: absolute;
+    top: 135px;
+    left: 0;
+    right: 0;
+    bottom: 70px;
+    overflow-y: auto;
+    overflow-x: none;
+}
+
+.exportLessContainer {
+    width: 100%;
+}
+
+.exportLessCode {
+    width: 100%;
+    min-height: 200px;
+    font-size: 12px;
+    overflow-y: scroll;
+    resize: both;
+    padding: 6px;
+    border: 1px solid #326099;
+}
+
+.exportTitle {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px
+}
+
+.styleNavContainer {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.styleList {
+    background-color: white;
+    color:black;
+    width: 100%;
+    //padding: 8px 8px 8px 20px;
+    border-top: 1px solid #eeeeee;
+    margin: 0;
+}
+
+.styleList.selected {
+    background-color: var(--select-state-color);
+    color: var(--select-state-text-color)
+}
+
+.styleList ul li div:hover {
+    background-color: var(--hover-color);
+    color: #ffffff;
+}
+
+.styleList ul li div {
+    padding:5px 5px 5px 5px;
+}
+
+.styleList ul {
+    list-style-type:none;
+    padding:0;
+    margin: 0;
+}
+
+.styleList ul li {
+    list-style-type:none;
+    padding:5px 0px;
+    margin: 0;
+}
+
+.themeName {
+   float: left;
+   font-size: 14px;
+}
+
+
+.exportContainer {
+    position: absolute;
+    height: var(--bottom-bar-height);
+    left: 0;
+    right: 0;
+    bottom: 0px;
+    background: #F2F2F2;
+}
+
+.btnGenerateSmallCopy {
+    font-size: 9px;
+    line-height: 5px;
+}
+
+.btnGenerate {
+    background: var(--primary-action-color);
+    font-size: var(--card-button-font-size);
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 2px 33px 8px 33px;
+    color: var(--primary-action-text-color);;
+    right:10px;
+    top: calc(50% - 21px);
+    position: absolute;
+    outline: none;
+    border: none;
+}
+
+.btnRevert {
+    border: 1px solid var(--primary-action-color);
+    font-size: var(--card-button-font-size);
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 7px 40px;
+    color: var(--primary-action-color);
+    left: 10px;
+    top: calc(50% - 21px);
+    position: absolute;
+    outline: none;
+    background-color: var(--main-background-color);
+
+}
+
+#themeColorPicker {
+    width: 94%;
+}
+
+.navLink {
+    cursor: pointer;
+}
+
+#updateVariableId {
+    width: 95%;
+    border-radius: 4px;
+    border: solid 1px #999;
+    height: 35px;
+    box-shadow: inset 0px 1px 8px rgba(0, 0, 0, 0.2);
+
+}

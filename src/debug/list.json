@@ -1,0 +1,69 @@
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200",
+        "message": "Success"
+    },
+    "current_intent": "VpaGetAnswer",
+    "message_contents": [
+        {
+            "type": "CONTAINER",
+            "payload": {
+                "mode": "LIST",
+                "contents": [
+                    {
+                        "type": "card",
+                        "payload": {
+                            "title": "Mary Smith - Financial Advisor",
+							"subtitle": "Financial Advisor with <b>4</b> <i>years of experience</i>. <span class='select-list-txt-green'>Mary</span> focuses on advising business professionals and small business owners looking for smarter ways to invest and manage their money.",
+	                            "buttons": [
+                                {
+                                    "label": "Book Appointment",
+                                    "type": "POSTBACK",
+                                    "payload": "http://www.xbank.com/learn_accounts.html"
+                                }
+                            ],
+                            "medium": {
+								"medium_url": "WaldnerLucia.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "type": "card",
+                        "payload": {
+                            "title": "Thomas Jones - Senior Financial Advisor",
+							"subtitle": "Senior Financial Advisor with <b>20</b> <i>years of experience</i>. <span class='select-list-txt-green'>Thomas</span> excels at researching the marketplace and recommending the most appropriate <b>products and services</b> available, ensuring that clients are aware of products that best meet thier needs.",	                            "buttons": [
+                                {
+                                    "label": "Book Appointment",
+                                    "type": "POSTBACK",
+                                    "payload": "http://www.xbank.com/learn_accounts.html"
+                                }
+                            ],
+                            "medium": {
+								"medium_url": "Select_List2.jpg"
+                            }
+                        }
+                    },
+                    {
+                        "type": "card",
+                        "payload": {
+                            "title": "John Doe - Financial Advisor",
+							"subtitle": "Financial Advisor with <b>5</b> <i>years of experience</i>. <span class='select-list-txt-green'>John</span> provides excellent financial planning and support to clients in order to help them achieve their <b>personal financial goals</b>.",	                            "buttons": [
+                                {
+                                    "label": "Book Appointment",
+                                    "type": "POSTBACK",
+                                    "payload": "http://www.xbank.com/learn_accounts.html"
+                                }
+                            ],
+                            "medium": {
+								"medium_url": "Select_List3.jpg"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

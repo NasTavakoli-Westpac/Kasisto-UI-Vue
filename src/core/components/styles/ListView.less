@@ -1,0 +1,435 @@
+@import '../../../styles/variables';
+
+/* LISTVIEW */
+  .kai-card-large-container .button {
+      display: inline-block;
+      padding: 4px 16px;
+      font-size: var(--card-button-font-size);
+  }
+   
+  .kai-card-large-container .item {
+    display: flex;
+  }
+  
+  .kai-card-large-container .heading,
+  .kai-card-large-container .item {
+    padding: 0px;
+    overflow: hidden;
+  }
+
+
+  .kai-card-large-container .item-wrapper{
+      flex: 2;
+      padding:0px;
+    }
+  .kai-card-large-container .img-wrapper{
+    text-align: left;
+    padding-right: 0px;
+    height:auto;
+  }
+
+  .img-sm {
+    width:100px!important;
+    height: 100px!important;
+    padding:0!important;
+    border:3px solid red;
+  }
+
+  .kai-card-large-container .message {
+    text-decoration: none;
+    margin: 0 0 0 0;
+  }
+
+  .kai-card-large-container .message-more {
+      cursor: pointer;
+      border-radius: 1.0em;
+      border: 1px solid #007aff;
+      background: #fff;
+      font-size: 14px;
+      line-height: 16px;
+      display: inline-block;
+      padding: 2px 12px;
+  }
+
+  .kai-card-large-container .message-more a{
+      color: #007aff !important;
+      text-decoration: none!important;
+  }
+
+  .kai-card-large-container a {
+    color: #007aff;
+    text-decoration: none;
+  }
+
+  .kai-card-large-container .title, .kai-card-large-container .message, a {
+          color: #000;
+      }
+  .kai-card-large-container .list-button {
+      cursor: pointer;
+      color: var(--primary-action-text-color);
+      background: var(--primary-action-color);
+      vertical-align: middle;
+      display: inline-block;
+      flex:0;
+      padding: 10px;
+      width:100%;
+    }
+
+  .kai-card-large-template, .kai-card-large-container{
+    max-width:637px;
+  }
+  .kai-card-large-container{
+    background-color: var(--component-background-color);
+    box-shadow: var(--shadow);
+    &:focus{
+      outline: none;
+      box-shadow: 0 0 5px 3px var(--highlight-color);
+    }
+  }
+
+  .kai-card-large-container.wrapper {
+    font-family: "Lato", Helvetica, Arial;
+    font-size: 20px;
+    border-bottom: solid 0px #e9e9e9;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    overflow: hidden;
+
+    &.fixed {
+      height: var(--card-large-item-max-height);
+    }
+
+    &.adaptive {
+      height: initial;
+    }
+
+  }
+
+  .kai-card-large-container:first-child  {
+    border-radius: 20px 20px 20px 20px ;
+  }
+  .kai-card-large-container:last-child  {
+    margin-bottom: 10px;
+    margin-right:20px;
+    border-radius: 20px 20px 20px 20px;
+    border-bottom: none;
+  }
+
+  .kai-card-large-template.fixed{
+    overflow: hidden;
+  }
+
+  .kai-card-large-template h3{
+    font-size: 16px;
+    font-weight:bold;
+    line-height: 0px; 
+    margin-bottom:5px;
+  }
+
+  .kai-card-large-template p{
+    line-height: 15px;
+  }
+  .kai-card-large-template .line{
+    display:block;
+    width:100%;
+    height:1px;
+    background-color:#ccc;
+    margin-top:5px;
+    margin-bottom:5px;
+  }
+  .kai-card-large-template .more{
+    color:#3B5998;
+    font-weight:bold;
+   
+  }
+
+  .kai-card-large-template .item-wrapper{
+    padding: 10px;    
+    flex:1;
+    min-height: 49px;
+  }
+  .kai-card-large-template .item-text{
+    color: var(--text-color);
+    display:block;
+    font-size: var(--font-sub-title-size);
+    &.fixed{
+      overflow: hidden;
+    }
+    &.fixed:before {
+      content:'';
+      width:100%;
+      height:80px;    
+      position:absolute;
+      left:0;
+      bottom:0;
+      border-radius: 15px;
+      background:linear-gradient(var(--background-gradient-starting-color-rgb) 0px, var(--background-gradient-ending-color-rgb));
+    }
+    &:focus{
+      outline: none;
+      box-shadow: 0 0 5px 3px var(--highlight-color);
+    }
+  }
+
+  .kai-card-large-template .item-text+.list-inline-button-item{
+    margin-left: 10px;
+  } 
+  .kai-card-large-template .item-button{
+    float:left;
+    flex:1;
+    margin-left:20px;
+  }
+
+  .kai-card-large-template .kai-card-subtitle {
+    min-height: 0;
+  }
+
+  .kai-card-large-template .kai-card-button {
+    min-width: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 0px;
+    bottom: 0px;
+    &.fixed {
+      position: absolute;
+    }
+  }
+
+  .kai-card-large-template .kai-card-subtitle {
+   padding: 0px 20px 2px 25px;
+  }
+
+  .kai-card-large-container  .kai-card-title {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    width:400px;
+  }
+
+
+
+
+.kai-card-large-container.wrapper footer,
+.kai-card-large-container.wrapper .middle {
+  display: table-row;
+  height: 0;
+  
+}
+.kai-card-large-container.wrapper .header {
+  //background: var(--secondary-action-color);
+  color: var(--secondary-action-text-color);
+  font-weight: bold;
+  border: 1px;
+  min-height: 40px;
+  //padding: 3px;
+  display: table;
+  //width: 100%;
+  margin-top: 15px;
+}
+
+  .kai-card-large-container.wrapper .heading,
+  .kai-card-large-container.wrapper .item {
+    padding: 0px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+
+  }
+
+  .kai-card-large-container.wrapper .kai-card-img{
+    max-height: 175px;
+  }
+
+  .kai-card-large-container.wrapper .kai-card-img {
+    //padding: 10px;
+    text-align: right;
+  }
+
+  .kai-card-large-container.wrapper .kai-card-large-template .item-wrapper{
+    flex:1;
+   // display: table-cell;
+    padding: 5px 20px 18px 20px;
+    &.item_block {
+      display: inline-block;
+      text-align: right;
+      width: 100%;
+    }
+  }
+
+  .item-wrapper.item_block >  .item-text {
+    float: left;
+    //margin-top:10px;
+    text-align: left;
+    position: relative;
+    //bottom: -20px;
+    width: 100%;
+  }
+  .kai-card-large-container.wrapper .kai-card-large-template .item-button{
+    float:left;
+    flex:1;
+    margin-left:0px;
+    display: table-cell;
+    width: 100%;
+    border-top: 0px solid #eeeeee;
+    height: 30px;
+  }
+   .kai-card-large-container.wrapper .item-wrapper{
+      flex: 2;
+      padding:0px;
+      //display: table-cell;
+    }
+  .kai-card-large-container.wrapper .img-wrapper{
+    text-align: left;
+    padding-right: 0px;
+    height:auto;
+    display: table-cell;
+    vertical-align: middle;
+    height: auto;
+    width: 30%;
+    background: var(--component-background-color);
+  }
+
+  .kai-card-medium.img-wrapper {
+    padding-top: 15px;
+  }
+
+  .kai-card-large-container .kai-card-medium{
+    &:focus{
+      outline: none;
+      box-shadow: none;
+    }
+
+    &:focus img{
+      outline: none;
+      box-shadow: 0 0 5px 3px var(--highlight-color);
+    }
+  }
+
+  .checkmark-listview-select{
+  position:relative;
+  //padding-left: 20px;
+  padding-right: 20px;
+  font-size: var(--font-title-size);
+  font-weight: bold;
+  //display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  top: 0px;
+  &:focus{
+    outline: none;
+    box-shadow: 0 0 5px 3px var(--highlight-color);
+  }
+}
+
+.select-listview-buttons-container{
+    margin-top:15px;
+    margin-bottom: 15px;
+
+     button {
+       margin: 5px;
+     }
+
+}
+
+.kai-card-large-template .kai-card-img img {
+  object-fit: cover;
+  width: 80%;
+  height: 80%;
+  border-radius: 5px;
+}
+
+.list-inline-buttons-container{
+  margin: 0px 25px 16px 18px;
+  background: var(--component-background-color);
+  bottom: 0px;
+  &.fixed {
+    position: absolute;
+  }
+}
+
+.list-inline-button-item {
+  position: relative;
+  display:inline-block;
+  background: var(--primary-action-color);
+  color: var(--primary-action-text-color);
+  font-size: var(--inline-button-font-size);
+  line-height: 35px;
+  height: 36px;
+  display: inline-block;
+  //margin: 0px 8px 0px 0px;
+  border-radius: 8px;
+  padding: 0 9px;
+  border: 1px solid #f1f0f0;
+  font-weight: bold;
+  right: 3px;
+  &:focus{
+    outline: none;
+    box-shadow: 0 0 5px 3px var(--highlight-color);
+  }
+}
+
+.list-item-separator {
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 1px solid #f1f0f0;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.list-inline-button-item:hover {
+  background-color: var(--hover-color);
+  color: var(--hover-text-color);
+  cursor: pointer;
+}
+
+.card-content-left {
+  float: left;
+  width: 100%;
+}
+
+.card-content-right {
+  float: right;
+  width: 30%;
+}
+
+.grouped-list {
+  //margin-left: 20px;
+}
+
+.group-list-btn {
+  margin-top: 25px;
+}
+
+.group-last-list-item-separator {
+  border: 4px solid #07A96F;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+
+.edit-btn {
+    /* position: absolute; */
+    /* right: 10px; */
+    //float: right;
+    /* width: 100%; */
+    margin-top: 10px;
+    /* bottom: 9px;*/
+
+}
+
+.no-medium-btn-wrap {
+  text-align: right;
+}
+
+.kai-card-large-template {
+  &:focus{
+    outline: none;
+    box-shadow: 0 0 5px 3px var(--highlight-color);
+  }
+}

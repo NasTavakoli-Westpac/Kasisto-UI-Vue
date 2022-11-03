@@ -1,0 +1,111 @@
+@import '../../../styles/variables';
+
+.kai-chat-message {
+    float: left;
+    background: #f3f3f3;
+    //border: 1px solid #f1f0f0;
+    color: #44464a;
+    border-radius: 5px;
+    font-size: var(--typing-indicator-size);
+    margin-bottom: 0.15em;
+    max-width: var(--text-bubble-and-button-max-width);
+    transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+    transform: translateY(0);
+    position: relative;
+    z-index: 10;
+}
+
+.kai-typing-indicator-wrapper {
+    background: #fff;
+    //border: 1px solid #f1f0f0;
+    color: #44464a;
+    overflow: hidden;
+    padding: 10px 10px 10px 19px;
+    border-radius: 10px 10px 10px 0px;
+    margin-bottom: 20px;
+    max-width: var(--text-bubble-and-button-max-width);
+    transition: transform 0.25s ease-in-out, opacity 0.25s ease-in-out;
+    transform: translateY(0);
+    z-index: 10;
+    display: inline-block;
+    position: relative;
+    box-shadow: var(--shadow);
+    //border-left: 9px solid var(--primary-action-color);
+
+    /* top: -8px; */
+}
+
+.kai-typing-indicator span {
+    background: var(--primary-action-color) !important;
+    height: var(--typing-indicator-size);
+    width: var(--typing-indicator-size);
+    margin-right: 4px;
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-animation: kai-typing-indicator-anim 2s infinite;
+    animation: kai-typing-indicator-anim 2s infinite
+}
+
+.kai-typing-indicator span:nth-child(1) {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s
+}
+
+.kai-typing-indicator span:nth-child(2) {
+    -webkit-animation-delay: 0.15s;
+    animation-delay: 0.15s
+}
+
+.kai-typing-indicator span:nth-child(3) {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    margin-right: 0
+}
+
+.kai-chat-message.kai-right .kai-status {
+    position: absolute;
+    font-size: 76.92%;
+    right: -1.5em;
+    bottom: 0;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%
+}
+
+.img-space {
+    left: 25px;
+}
+
+/****************************************************/
+
+/* ANIMATIONS  */
+
+/****************************************************/
+
+@keyframes kai-typing-indicator-anim {
+    0% {
+        transform: translate(0, 0)
+    }
+
+    20% {
+        transform: translate(0, -0.5em)
+    }
+
+    40% {
+        transform: translate(0, 0)
+    }
+}
+
+@-webkit-keyframes kai-typing-indicator-anim {
+    0% {
+        -webkit-transform: translate(0, 0)
+    }
+
+    20% {
+        -webkit-transform: translate(0, -0.5em)
+    }
+
+    40% {
+        -webkit-transform: translate(0, 0)
+    }
+}

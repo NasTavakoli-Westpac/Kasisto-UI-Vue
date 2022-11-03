@@ -1,0 +1,139 @@
+@import '../../../styles/variables';
+
+/* MULTI SELECT CHECKBOX*/
+.btn-close{
+ color:black;
+ display:block;  
+ line-height:21px;
+ position:relative;
+ width:100%;
+ height:20px;
+}
+.btn-close-x{
+    float:right;
+}
+
+.kai-multi-select-container{
+    position:relative;
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    overflow: auto;
+    max-height: 250px;
+    padding: 0 0 0 0px;
+}
+
+.kai-multi-select-container .multi-select-container {
+  display: block;
+  position: relative;
+  padding-left: 5px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.desktop-view{
+  @media only screen and (min-width: 768px) {
+  display: grid;
+  grid-template-rows: repeat(6, auto);
+  grid-gap: 1px;
+  grid-auto-flow: column;
+  }
+}
+
+.kai-multi-select-container .row{ 
+  margin-right: 0px;
+}
+.kai-multi-select-container .multi-select-container label {
+  margin-left: 15px;    
+}
+.kai-multi-select-container .multi-select-container .select-bground{
+ line-height: 20px;
+ 
+}
+.kai-multi-select-container .multi-select-container .select-bground label{
+ color:var(--text-color);
+}
+.kai-multi-select-container .multi-select-container .select-bground:hover label{
+ color:var(--hover-text-color);
+}
+
+.kai-multi-select-container .multi-select-container [type="checkbox"].filled-in:checked+span:not(.lever):after {
+    border: 2px solid #4D4D4D;
+    background-color: #00A1Af;
+}
+
+.multi-select-container .desktop-view label {
+  margin-left: 15px!important;   
+  display: inline-block!important;
+  margin-bottom: 0.1rem!important;
+  padding-top: 5px!important; 
+}
+
+.multi-select-container .select-bground{
+ line-height: 30px;
+}
+
+.multi-select-container .select-bground:hover{
+ background: var(--primary-action-color);
+ color:white;
+ cursor: pointer; 
+}
+.top-margin{
+  margin-top:8px;
+}
+.multi-btn{
+
+}
+
+.multi-select-submit{
+    background: var(--primary-action-color) !important;
+    color: var(--primary-action-text-color) !important;
+    padding: 5px 0px;
+    cursor: pointer; /* Add a pointer on hover */
+    /* text-align: center; */
+    min-width: 85px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+    &.disabled {
+      background: #9da7b0;
+    }
+
+    
+}
+
+button.multi-select-submit {
+  margin: 10px;
+}
+
+.multi-select-message {
+  opacity: 0;
+  position: absolute;
+  top:0;
+  transition: opacity 600ms, top 600ms linear;
+
+  &.show{
+    opacity: 1;
+    position: relative;
+    visibility: visible;
+    transition: opacity 600ms, bottom 600ms linear;
+  }
+}
+
+.checkbox-space {
+  margin-left: 7px;
+}

@@ -1,0 +1,168 @@
+{
+  "context": {
+    "api_version": "2.1.2"
+  },
+  "status": {
+    "code": "200"
+  },
+  "current_intent": "VpaGreeting",
+  "message_contents": [
+    {
+      "type": "TEXT",
+      "payload": {
+        "text": "I make banking easy. Let's see. Ask me for information about your accounts, cards, or transactions, or to make a payment."
+      }
+    },
+    {
+      "type": "PAUSE",
+      "payload" : {
+        "duration": 1000
+      }
+    },
+    {
+      "type": "CONTAINER",
+      "payload": {
+        "mode": "CAROUSEL",
+        "contents": [
+          {
+            "type": "CARD",
+            "payload": {
+              "title": "Expandable Card",
+              "subtitle": "Cards can constrain their sizes so they only fit a certain height.<br><br>Click on the green (+) icon to expand and see more content within the card. This will appear on any card which has content exceeding the fixed height.<br><br>Click Learn More to see more information on this card. Typically, you will want this label to describe the content that the user will see next. For instance, a card displaying an offer may have a button that says, \"Apply for Offer\" so the user can take advantage of the offer. Note: that the label can be anything that you want. A separate response can be sent to the virtual assistant and associated with that label.",
+              "buttons": [
+                {
+                  "payload": "Help ShowTransactions",
+                  "label": "Learn More",
+                  "type": "POSTBACK"
+                }
+              ],
+              "medium": {
+                "type": "text",
+                "medium_url": "https://kasisto.com/wp-content/uploads/2019/09/Home-Consumer@2x-1024x951.png",
+                "hyperlink_url": ""
+              }
+            }
+          },
+          {
+            "type": "CARD",
+            "payload": {
+              "title": "Activity Cost",
+              "subtitle": "Chart Data can constrain graphic api data. Click on the green (+) icon to expand and see more content within the card.",
+              "buttons": [
+                {
+                  "payload": "Help GetUserAccountInformation",
+                  "label": "Learn More",
+                  "type": "POSTBACK"
+                }
+              ],
+              "medium": {
+                "type": "PIECHART",
+                "medium_url": "http://www/someimg.png",
+                "hyperlink_url": "http://someulrl.com",
+                "chart_data": {
+                  "data_type": "category",
+                  "title": "",
+                  "items": [
+                    {
+                      "name": "ACN - $18,525.00",
+                      "label": "18.4%",
+                      "value": "18525"
+                    },
+                    {
+                      "name": "FB - $17,925.00",
+                      "label": "17.8%",
+                      "value": "17925"
+                    },
+                    {
+                      "name": "MMM - $15,462.00",
+                      "label": "15.4%",
+                      "value": "15425"
+                    },
+                    {
+                      "name": "DFS - $7,622.00",
+                      "label": "7.6%",
+                      "value": "7622"
+                    },
+                    {
+                      "name": "HISC - $6,179.00",
+                      "label": "6.1%",
+                      "value": "6179"
+                    },
+                    {
+                      "name": "CVS - $6,111.00",
+                      "label": "6.1%",
+                      "value": "6111"
+                    },
+                    {
+                      "name": "FE - $4,761.00",
+                      "label": "4.7%",
+                      "value": "4761"
+                    },
+                    {
+                      "name": "ZION - $4,245.00",
+                      "label": "4.2%",
+                      "value": "4245"
+                    },
+                    {
+                      "name": "FL - $4,136.00",
+                      "label": "4.1%",
+                      "value": "4136"
+                    },
+                    {
+                      "name": "T - $3,708.00",
+                      "label": "3.7%",
+                      "value": "3708"
+                    },
+                    {
+                      "name": "Other - $11,928.00",
+                      "label": "11.9%",
+                      "value": "11928"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "type": "CARD",
+            "payload": {
+              "title": "Sample Video",
+              "subtitle": "Cards can be embedded with video as well as images. This is useful for step-by-step directions.",
+              "buttons": [
+                {
+                  "payload": "Help PayPerson",
+                  "label": "Learn More",
+                  "type": "POSTBACK"
+                }
+              ],
+              "medium": {
+                "type": "text",
+                "medium_url": "https://www.youtube.com/watch?v=iT6RlMlRJWA",
+                "hyperlink_url": ""
+              }
+            }
+          },
+          {
+            "type": "CARD",
+            "payload": {
+              "title": "Link and Phone #",
+              "subtitle": "Click a <a href='https://kasisto.com/'>link</a> to learn more or press the phone number to initiate a call on a mobile device.",
+              "buttons": [
+                {
+                  "payload": "Help VpaGetDefinition",
+                  "label": "Phone Number",
+                  "type": "POSTBACK"
+                }
+              ],
+              "medium": {
+                "type": "text",
+                "medium_url": "mobile-carousel-img.jpeg",
+                "hyperlink_url": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

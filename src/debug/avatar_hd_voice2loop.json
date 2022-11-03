@@ -1,0 +1,17 @@
+{
+  "status": {
+    "code": "200"
+  },
+  "message_contents": [
+    {
+      "type": "CUSTOM",
+      "payload": {
+        "type": "AVATAR",
+        "data": {
+          "name": "voice_2loop_bodymovin",
+          "loop": true
+        }
+      }
+    }
+  ]
+}

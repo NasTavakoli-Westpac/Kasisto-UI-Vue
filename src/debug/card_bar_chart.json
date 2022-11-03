@@ -1,0 +1,75 @@
+{
+  "context": {
+    "user": {}
+  },
+  "message_contents": [
+    {
+      "type": "CONTAINER",
+      "payload": {
+        "mode": "CAROUSEL",
+        "contents": [
+          {
+            "type": "CARD",
+            "payload": {
+              "subtitle": "<div id='kcb_budget' mode='under_all' max_label='Total budget: $700' value_label='Spending to date: 690$' value='690' max='700'>You are on track with your budgeting goal.</div>",
+              "buttons": [
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1/YBSTP9BcMUIrMFM1hJvg3GP8EQyVla5lMhNNrlL8pzNo6JadYbLC6kmsSbcAT+nMgl5fGLJYQNgmDiIZU+pXbvgDq+XP+AyZtUj0STwhss=",
+                  "label": "Edit Budget"
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1/YBSTP9BcMUIrMFM1hJvg3GP8EQyVla5lMhNNrlL8pzNo6JadYbLC6kmsSbcAT+nMgl5fGLJYQNgmDiIZU+pXbvgDq+XP+AyZtUj0STwhss=",
+                  "label": "Remove Budget"
+                }
+              ],
+              "title": "Retail Budget"
+            }
+          },
+          {
+            "type": "CARD",
+            "payload": {
+              "subtitle": "<div id='kcb_budget' mode='over_some' max_label='Total budget: $550' value_label='Spending to date: $400' value='400' max='550'>You are over spending on 1 out of 5 of your budgeting goals.</div>",
+              "buttons": [
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1/YBSTP9BcMUIrMFM1hJvg3GP8EQyVla5lMhNNrlL8pzNo6JadYbLC6kmsSbcAT+nMgl5fGLJYQNgmDiIZU+pXbvgDq+XP+AyZtUj0STwhss=",
+                  "label": "Create Budget"
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "/YBSTP9BcMUIrMFM1hJvg3GP8EQyVla5lMhNNrlL8pzNo6JadYbLC6kmsSbcAT+nMgl5fGLJYQNgmDiIZU+pXbvgDq+XP+AyZtUj0STwhss=",
+                  "label": "Remove Budget"
+                }
+              ],
+              "title": "Travel Budget"
+            }
+          },
+          {
+            "type": "CARD",
+            "payload": {
+              "subtitle": "<div id='kcb_budget' mode='over_all' max_label='Spending to date: $875' value_label='Total budget: $300' value='300' max='875'>You are over your budgeting goal.<br> <br></div>",
+              "buttons": [
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1/YBSTP9BcMUIrMFM1hJvg3GP8EQyVla5lMhNNrlL8pzNo6JadYbLC6kmsSbcAT+nMgl5fGLJYQNgmDiIZU+pXbvgDq+XP+AyZtUj0STwhss=",
+                  "label": "Create Budget"
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "/YBSTP9BcMUIrMFM1hJvg3GP8EQyVla5lMhNNrlL8pzNo6JadYbLC6kmsSbcAT+nMgl5fGLJYQNgmDiIZU+pXbvgDq+XP+AyZtUj0STwhss=",
+                  "label": "Remove Budget"
+                }
+              ],
+              "title": "Grocery Budget"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "status": {
+    "code": "200"
+  }
+}

@@ -1,0 +1,37 @@
+@import '../../../styles/variables';
+
+/* MULTI SELECT LISTVIEW*/
+.kai_card_button_font_active {
+  color: #fff !important;
+}
+.kai_card_button_active {
+  background-color: var(--select-state-color) !important;
+  color: var(--select-state-text-color) !important;
+  
+}
+.kai_card_button_active_border {
+  box-shadow: 0 0 0 4px var(--select-state-color);
+}
+.kai_card_button_active_border.disabled {
+  box-shadow: 0 0 0 4px #D8D8D8 !important;
+}
+
+.kai-card-disabled-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% + 2px);
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(255, 253, 253, 0.5);
+  border-radius: 14px;
+}
+
+input.checkmark-listview-select {
+  top: 4px;
+  display: none;
+}
+
+.select-list-txt-green {
+  color:#4AA574;
+}

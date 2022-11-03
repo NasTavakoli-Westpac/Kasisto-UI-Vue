@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="26px" viewBox="0 0 8 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>App/Shortcuts arrow</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="App/Shortcuts-Slider" transform="translate(-6.000000, -36.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M-1.51263545,49.5903174 L9.99946978,45.4039046 L21.5125937,49.5903023 C22.2911483,49.8734 22.6927954,50.7340392 22.4096977,51.5125937 C22.1432528,52.245351 21.3652141,52.6442386 20.6255161,52.4526107 L20.4874063,52.4096977 L9.999,48.596 L-0.487364553,52.4096826 C-1.2201139,52.6761491 -2.02559284,52.3360619 -2.35385921,51.6460506 L-2.40968255,51.5126354 C-2.67614913,50.7798861 -2.33606188,49.9744072 -1.64605058,49.6461408 L-1.51263545,49.5903174 Z" id="App/Shortcuts-arrow" transform="translate(10.000000, 48.952156) rotate(-450.000000) translate(-10.000000, -48.952156) "></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+{
+    "context": {
+        "user": {
+            "segment_names": ["High_Net_Worth", "cmstest2", "cmstest3", "cmstest5", "cmstest7", "customer", "Webview", "Mass_Affluent", "1testgallery", "1testQR", "android123"]
+        },
+        "api_version": "2.1.2",
+        "app_version": "2.2-8957",
+        "model_version": "20180830044439"
+    },
+    "question_id": "G1175_rate",
+    "message_contents": [{
+        "type": "TEXT",
+        "payload": {
+            "text": "Interest rate, typically expressed as a percentage, shows how quickly interest accumulates on an account or is paid on a loan. Interest is the amount that a borrower pays a lender for using the lender's money."
+        }
+    }],
+    "quick_replies": [{
+        "type": "TEXT",
+        "display_text": "👍",
+        "payload": ":👍:"
+    }, {
+        "type": "TEXT",
+        "display_text": "👎",
+        "payload": ":👎:"
+    }],
+    "alternative_questions": [{
+        "display_sentence": "Is my supplementary Credit Card's spending eligible for the Credit Card spending category?",
+        "intent_name": "G0732_interest_rate_floor",
+        "payload": "[ENCRYPTED POSTBACK PAYLOAD 1]"
+    }, {
+        "display_sentence": "What are the applicable fees and charges for a credit card?",
+        "intent_name": "GetUserAccountInformation",
+        "payload": "[ENCRYPTED POSTBACK PAYLOAD 2]"
+    }, {
+        "display_sentence": "Is there a credit limit given to credit cards?",
+        "intent_name": "G3035_interest_rate_index",
+        "payload": "[ENCRYPTED POSTBACK PAYLOAD 3]"
+    }],
+    "status": {
+        "code": "200"
+    }
+}

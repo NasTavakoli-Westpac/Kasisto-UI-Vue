@@ -1,0 +1,195 @@
+@import '../../../styles/variables';
+
+.datepicker,
+.dateCalendar-inner-container {
+  background: var(--component-background-color) !important;
+}
+
+.btn-datepicker {
+  color: #fff;
+  background-color: var(--primary-action-color) !important;
+  border: 0 !important;
+  font-weight: bold !important;
+  outline: none !important;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  padding: 6px 12px;
+  font-size: var(--card-button-font-size);
+  line-height: 1.5;
+  border-radius: 4px;
+}
+
+.btn-datepicker:hover {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-text-color) !important;
+}
+
+.datepicker table tr td.active.active,
+.datepicker table tr td.active.highlighted.active,
+.datepicker table tr td.active.highlighted:active,
+.datepicker table tr td.active:active,
+.datepicker table tr td span.active.active,
+.datepicker table tr td span.active.disabled.active,
+.datepicker table tr td span.active.disabled:active,
+.datepicker table tr td span.active.disabled:hover.active,
+.datepicker table tr td span.active.disabled:hover:active,
+.datepicker table tr td span.active:active,
+.datepicker table tr td span.active:hover.active,
+.datepicker table tr td span.active:hover:active {
+  background: var(--primary-action-color) !important;
+  background-color: var(--primary-action-color) !important;
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.datepicker table tr td:hover {
+  background: var(--hover-color) !important;
+  color: var(--hover-text-color) !important;
+}
+
+.datepicker-years table tr td:hover,
+.datepicker-months table tr td:hover {
+  background: white !important;
+  color: black !important;
+}
+
+.datepicker-years table tr td span:hover,
+.datepicker-months table tr td span:hover {
+  background-color: var(--hover-color) !important;
+  color: var(--hover-text-color) !important;
+}
+
+.submit-button {
+  background: var(--primary-action-color) !important;
+  color: var(--primary-action-text-color) !important;
+}
+
+.submit-button:hover {
+  background: var(--hover-color) !important;
+  color: var(--hover-text-color) !important;
+}
+
+.datepicker-in-fullscreen-background {
+  background: rgba(60, 59, 59, 0.90) !important;
+}
+
+.hide {
+  display: none;
+}
+
+.datepicker-icon {
+  padding-right: 4px;
+  width: 30px;
+  height: 30px;
+}
+
+.datepicker-container {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.data-picker {
+  clear: both;
+  padding-left: 25px;
+}
+
+.datepicker-fullwidth-line {
+  position: absolute;
+  top: 104px;
+  left: 0;
+  border-top: 1px solid #cccccc;
+  width: 100%;
+}
+
+.datepicker tbody:before {
+  line-height: 10px;
+  content: "-";
+  color: transparent;
+  display: block;
+}
+
+
+.datepicker-cancel-btn {
+  cursor: pointer;
+  position: absolute;
+  left: -15px;
+  width: 84px;
+  top: 1px;
+  height: 46px;
+  text-align: center;
+  padding: 3px 0 0 0;
+  font-size: 26px;
+  border-radius: 3px;
+  //color: #aaaaaa;
+}
+
+/*
+.datepicker-cancel-btn:hover {
+  background: var(--hover-color) !important;
+}
+*/
+
+
+.datepicker table tr td,
+.datepicker table tr th {
+  padding: 8px;
+}
+
+.datepicker-month {
+  height: 17px;
+  text-align: center;
+  width: 100% !important;
+}
+
+.prev {
+  position: absolute;
+    left: 33%;
+    top: 9px;
+}
+
+.next {
+  position: absolute;
+  right: 33%;
+  top: 9px;
+}
+
+
+@media screen and (min-width: 501px) and (max-width: 650px) {
+  .datepicker-cancel-btn {
+    right: 10px;
+    width: 13%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .datepicker-cancel-btn {
+    left: 0px;
+    width: 60px;
+    top: 0px;
+    font-size: 24px;
+  }
+
+
+  .prev {
+    position: absolute;
+      left: 23%;
+      top: 5px;
+  }
+
+  .next {
+    position: absolute;
+    right: 23%;
+    top: 5px;
+  }
+
+}
+
+.date-arrow-right {
+  border-right: 10px solid; 
+  border-bottom: 10px solid;
+  height: 30px;
+  width: 30px;
+  transform: rotate(-45deg);
+}

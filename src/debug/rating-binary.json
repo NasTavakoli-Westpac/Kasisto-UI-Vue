@@ -1,0 +1,36 @@
+{
+    "context": {
+		"user": {
+			"segment_names": [
+				"banking_intent_disabled",
+				"default",
+				"live_chat_unavailable_on_platform"
+			]
+		},
+		"api_version": "3.1",
+		"app_version": "2.3-897",
+		"model_version": "20190808033528"
+	},
+    "message_contents": [
+        {
+            "type": "TEXT",
+            "payload": {
+                "text": "I'm best with accounts, cards, and transactions. Rate your experience"
+            }
+        },
+        {
+            "type": "SELECT",
+            "payload": {
+                "mode": "RATING",
+                "input_type": "RATING_BINARY",  
+                "options": [
+                    { "value": "1", "label": "👍"},
+                    { "value": "0", "label": "👎"}
+                ]
+            }
+        }
+    ],
+    "status": {
+        "code": "200"
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "context": {
+        "api_version": "2.1.2",
+        "app_version": "2.3-11672",
+        "model_version": "20190530101350"
+    },
+    "current_intent": "multigraph",
+    "current_sub_intent": "start_conversation",
+    "status": {
+        "code": "200"
+    },
+    "message_contents": [
+        {
+            "type": "CUSTOM",
+            "payload": {
+                "type": "CHART",
+                "data": {
+                    "type": "LINECHART",
+                    "medium_url": "<someimageurl>",
+                    "hyperlink_url": "<someurl>",
+                    "chart_data": {
+                        "data_type": "score",
+                        "title": "Your historical Credit Score",
+                        "items": [
+                            {
+                                "name": "2020-03-21",
+                                "value": 300,
+                                "label": "602"
+                            },
+                            {
+                                "name": "2020-04-21",
+                                "value": 602,
+                                "label": "602"
+                            },
+                            {
+                                "name": "2020-05-21",
+                                "value": 602,
+                                "label": "602"
+                            },
+                            {
+                                "name": "2020-06-21",
+                                "value": 602,
+                                "label": "602"
+                            },
+                            {
+                                "name": "2020-07-21",
+                                "value": 602,
+                                "label": "602"
+                            },
+                            {
+                                "name": "2020-08-03",
+                                "value": 650,
+                                "label": "650"
+                            },
+                            {
+                                "name": "2020-09-21",
+                                "value": "670",
+                                "label": "670"
+                            },
+                            {
+                                "name": "2020-10-21",
+                                "value": "650",
+                                "label": "650"
+                            },
+                            {
+                                "name": "2020-11-21",
+                                "value": "650",
+                                "label": "650"
+                            },
+                            {
+                                "name": "2020-12-21",
+                                "value": "699",
+                                "label": "699"
+                            },
+                            {
+                                "name": "2021-01-21",
+                                "value": "699",
+                                "label": "699"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

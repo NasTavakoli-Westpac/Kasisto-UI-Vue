@@ -1,0 +1,78 @@
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200"
+    },
+    "current_intent": "...",
+    "message_contents": [
+        {
+            "type": "CUSTOM",
+            "payload": {
+                "type": "CONCIERGE_CARD",
+                "data": {
+                    "title": "Daily Cash Positions",
+                    "highlight": {
+                        "label": "Accounts",
+                        "value": "14"
+                    },
+                    "subtitle": "Total Balance: $4,141,167.36",
+                    "table_data": {
+                        "data_type": "category",
+                        "title": "Daily Cash Positions",
+                        "items": [
+                            {
+                                "currency": "EUR (€)",
+                                "# of Accounts": "6",
+                                "% Change": "(+15.45%)",
+                                "Balance (Current Day)": "$345,142.41"
+                            },
+                            {
+                                "currency": "GBP (£)",
+                                "# of Accounts": "3",
+                                "% Change": "(-2.35%)",
+                                "Balance (Current Day)": "$95,242.86"
+                            },
+                            {
+                                "currency": "USD ($)",
+                                "# of Accounts": "2",
+                                "% Change": "(+1.75%)",
+                                "Balance (Current Day)": "$94,515.13"
+                            },
+                            {
+                                "currency": "JPY (¥)",
+                                "# of Accounts": "2",
+                                "% Change": "(+1.45%)",
+                                "Balance (Current Day)": "$424,124.41"
+                            },
+                            {
+                                "currency": "KRW (₩)",
+                                "# of Accounts": "1",
+                                "% Change": "(0.00%)",
+                                "Balance (Current Day)": "$143,412.23"
+                            }
+                        ]
+                    },
+                    "buttons": [
+                        {
+                            "label": "Review All Accounts",
+                            "type": "POSTBACK",
+                            "payload": "Review All Accounts"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "payload": "Largest Positive Change",
+            "type": "TEXT",
+            "display_text": "Largest Positive Change"
+        },
+        {
+            "payload": "Largest Negative Change",
+            "type": "TEXT",
+            "display_text": "Largest Negative Change"
+        }
+    ]
+}

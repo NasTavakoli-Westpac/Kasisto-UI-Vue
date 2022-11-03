@@ -1,0 +1,83 @@
+{
+	"context": {
+		"user": {
+			"segment_names": [
+				"banking_intent_disabled",
+				"default",
+				"live_chat_unavailable_on_platform"
+			]
+		},
+		"api_version": "3.1",
+		"app_version": "2.3-897",
+		"model_version": "20190808033528"
+	},
+	"current_intent": "Card_Renew",
+	"current_sub_intent": "start_conversation",
+	"message_contents": [
+		{
+			"type": "SELECT",
+			"payload": {
+				"mode": "CAROUSEL",
+				"options": [
+					{
+						"payload": {
+							"medium": {
+								"medium_url": "visa.jpg"
+							},
+							"title": "Visa Classic Card",
+							"subtitle": "The Visa Classic card is an ideal first card because of its simplicity, flexibility, and worldwide recognition."
+						},
+						"value": "1234",
+						"enabled": true,
+						"label": "Select",
+						"question_display_text": "You selected Visa Classic Card"
+					},
+					{
+						"payload": {
+							"medium": {
+								"medium_url": "capital-one-secured-credit-card-1412383c.jpg"
+							},
+							"title": "Capital One Platinum",
+							"subtitle": "A straightforward card that charges no annual fee annd offers the opportunity to boost your credit limit."
+						},
+						"value": "4321",
+						"enabled": true,
+						"label": "Select",
+						"question_display_text": "You selected Capital One Platinum"
+					},
+					{
+						"payload": {
+							"medium": {
+								"medium_url": "amex_centurion.jpg"
+							},
+							"title": "Amex Centurion",
+							"subtitle": "The most exclusive card offered by Amex. It offers unrival perks and rewards in travel and fine dining."
+						},
+						"value": "5678",
+						"enabled": true,
+						"label": "Select",
+						"question_display_text": "You selected Amex Centurion"
+					},
+					{
+						"payload": {
+							"medium": {
+								"medium_url": "Platinum_metal.jpg"
+							},
+							"title": "Amex Platinum",
+							"subtitle": "The Amex Platinum comes with tons of benefits and a nice welcome bonus of 60,000 Amex points."
+						},
+						"value": "8765",
+						"enabled": true,
+						"label": "Select",
+						"question_display_text": "You selected Amex Platinum"
+					}
+				],
+				"min_select": 1,
+				"max_select": 2
+			}
+		}
+	],
+	"status": {
+		"code": "200"
+	}
+}

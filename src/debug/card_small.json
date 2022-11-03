@@ -1,0 +1,94 @@
+{
+  "context": {
+    "user": {}
+  },
+  "message_contents": [
+    {
+      "type": "TEXT",
+      "payload": {
+        "text": "Welcome back, Jackie!",
+        "alternatives": [
+          "Welcome, Jackie. You are now logged in."
+        ]
+      }
+    },
+    {
+      "type": "TEXT",
+      "payload": {
+        "text": "Here are your account highlights:"
+      }
+    },
+    {
+      "type": "CONTAINER",
+      "payload": {
+        "mode": "CAROUSEL",
+        "contents": [
+          {
+            "type": "CARD",
+            "payload": {
+              "subtitle": "<div class='cust-msg-red' style='font-size:20px'>$1,720.00 more</div> on Travel so far this month",
+              "medium": {
+                "type": "SMALL_IMAGE",
+                "medium_url": "https://kaiassets.s3.amazonaws.com/kcb/icons/travel.png",
+                "hyperlink_url": "https://kaiassets.s3.amazonaws.com/kcb/icons/travel.png"
+              },
+              "title": "Travel"
+            }
+          },
+          {
+            "type": "CARD",
+            "payload": {
+              "subtitle": "<div class='cust-msg-red' style='font-size:20px'>$1,720.00 more</div> on Travel so far this month",
+              "buttons": [
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKaEPx3mpnxNXkB71ey8dveLdFPQMK2Hwd47B+xomoFrNo0gILP3Z9CMoO0YjhGZ4uV2Zu7gJ97ZLrLUxn0UYyrewVyM9ClDCOOCmRiQY/J8iPiF36LyCrozQ8tX6EbX4fr6kWTNdcYek8i5g1OrPyTW9xJT/GpQ1qGaECD1iF8SrS+g8jKRgbMxfjt3JsSzslip1P7UZq7p/C3yZlSzZ/RHdz8PU+nIpfzATusaZpIoImu1x/cGh6iiOVTDeT+gqPA8mtnvr6fewLKgS6FkREUGREZyLXCpynmO7jw6wM3TRho3UTtiNfM68ynC/C49SKdDkHsCQE+9u0xNH5HOg0Ug9rc2gopoEuEd1xQC29Mn0li45X4V5TEd+NfCy1HeYAisL4IEy7xT8N/vQiacpls8xd8X1+RktDBq/IpBn3in2mMgmvoKlIHAD6jVfc9vfgL1lQwTVmddTscGm9+sm2nurfYDzX3wkP76YX6v0W09/",
+                  "label": "Create a Budget"
+                }
+              ],
+              "medium": {
+                "type": "SMALL_IMAGE",
+                "medium_url": "https://kaiassets.s3.amazonaws.com/kcb/icons/travel.png",
+                "hyperlink_url": "https://kaiassets.s3.amazonaws.com/kcb/icons/travel.png"
+              },
+              "title": "Travel"
+            }
+          },
+          {
+            "type": "CARD",
+            "payload": {
+              "subtitle": "<div class='cust-msg-red' style='font-size:20px'>$1,720.00 more</div> on Travel so far this month",
+              "buttons": [
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKaEPx3mpnxNXkB71ey8dveLdFPQMK2Hwd47B+xomoFrNo0gILP3Z9CMoO0YjhGZ4uV2Zu7gJ97ZLrLUxn0UYyrewVyM9ClDCOOCmRiQY/J8iPiF36LyCrozQ8tX6EbX4fr6kWTNdcYek8i5g1OrPyTW9xJT/GpQ1qGaECD1iF8SrS+g8jKRgbMxfjt3JsSzslip1P7UZq7p/C3yZlSzZ/RHdz8PU+nIpfzATusaZpIoImu1x/cGh6iiOVTDeT+gqPA8mtnvr6fewLKgS6FkREUGREZyLXCpynmO7jw6wM3TRho3UTtiNfM68ynC/C49SKdDkHsCQE+9u0xNH5HOg0Ug9rc2gopoEuEd1xQC29Mn0li45X4V5TEd+NfCy1HeYAisL4IEy7xT8N/vQiacpls8xd8X1+RktDBq/IpBn3in2mMgmvoKlIHAD6jVfc9vfgL1lQwTVmddTscGm9+sm2nurfYDzX3wkP76YX6v0W09/",
+                  "label": "Button 1"
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKaEPx3mpnxNXkB71ey8dveLdFPQMK2Hwd47B+xomoFrNo0gILP3Z9CMoO0YjhGZ4uV2Zu7gJ97ZLrLUxn0UYyrewVyM9ClDCOOCmRiQY/J8iPiF36LyCrozQ8tX6EbX4fr6kWTNdcYek8i5g1OrPyTW9xJT/GpQ1qGaECD1iF8SrS+g8jKRgbMxfjt3JsSzslip1P7UZq7p/C3yZlSzZ/RHdz8PU+nIpfzATusaZpIoImu1x/cGh6iiOVTDeT+gqPA8mtnvr6fewLKgS6FkREUGREZyLXCpynmO7jw6wM3TRho3UTtiNfM68ynC/C49SKdDkHsCQE+9u0xNH5HOg0Ug9rc2gopoEuEd1xQC29Mn0li45X4V5TEd+NfCy1HeYAisL4IEy7xT8N/vQiacpls8xd8X1+RktDBq/IpBn3in2mMgmvoKlIHAD6jVfc9vfgL1lQwTVmddTscGm9+sm2nurfYDzX3wkP76YX6v0W09/",
+                  "label": "Button 2"
+                },
+                {
+                  "type": "POSTBACK",
+                  "payload": "S9m7dx1o5oBXjsnIlDay1pIUEJCAw2qsdC1elgUj9NS2fOIsSPTGS1vwPDQAG1SmPSH+1YvlVTYYm4AHFJIGKaEPx3mpnxNXkB71ey8dveLdFPQMK2Hwd47B+xomoFrNo0gILP3Z9CMoO0YjhGZ4uV2Zu7gJ97ZLrLUxn0UYyrewVyM9ClDCOOCmRiQY/J8iPiF36LyCrozQ8tX6EbX4fr6kWTNdcYek8i5g1OrPyTW9xJT/GpQ1qGaECD1iF8SrS+g8jKRgbMxfjt3JsSzslip1P7UZq7p/C3yZlSzZ/RHdz8PU+nIpfzATusaZpIoImu1x/cGh6iiOVTDeT+gqPA8mtnvr6fewLKgS6FkREUGREZyLXCpynmO7jw6wM3TRho3UTtiNfM68ynC/C49SKdDkHsCQE+9u0xNH5HOg0Ug9rc2gopoEuEd1xQC29Mn0li45X4V5TEd+NfCy1HeYAisL4IEy7xT8N/vQiacpls8xd8X1+RktDBq/IpBn3in2mMgmvoKlIHAD6jVfc9vfgL1lQwTVmddTscGm9+sm2nurfYDzX3wkP76YX6v0W09/",
+                  "label": "Button 3"
+                }
+              ],
+              "title": "Travel"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "TEXT",
+      "payload": {
+        "text": "You have a card that's pending activation. Can I help you activate it?"
+      }
+    }
+  ],
+  "status": {
+    "code": "200"
+  }
+}

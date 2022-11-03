@@ -1,0 +1,16 @@
+{
+  "status": {
+    "code": "200"
+  },
+  "message_contents": [
+    {
+      "type": "CUSTOM",
+      "payload": {
+        "type": "AVATAR",
+        "data": {
+          "name": "playground_bodymovin"
+        }
+      }
+    }
+  ]
+}

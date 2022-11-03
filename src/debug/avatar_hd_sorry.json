@@ -1,0 +1,13 @@
+{
+  "status": {
+    "code": "200"
+  },
+  "message_contents": [
+    {
+      "type": "AVATAR",
+       "payload": { 
+           "state_name": "SORRY_AVATAR_STATE"
+       }
+   }
+  ]
+}

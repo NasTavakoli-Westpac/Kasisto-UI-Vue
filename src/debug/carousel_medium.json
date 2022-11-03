@@ -1,0 +1,75 @@
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200"
+    },
+    "current_intent": "VpaGreeting",
+    "message_contents": [
+        {
+            "type": "CONTAINER",
+            "payload": {
+                "mode": "CAROUSEL",
+                "contents": [
+                    {
+                        "type": "MEDIUM",
+                        "payload": {
+                            "type": "PIECHART",
+                            "medium_url": "http://www/someimg.png",
+                            "hyperlink_url": "http://someulrl.com",
+                            "chart_data": {
+                                "data_type": "category",
+                                "title": "Activity Cost",
+                                "items": [
+                                    {
+                                        "name": "Garden",
+                                        "value": 2107.27,
+                                        "label": " $2,107.27"
+                                    },
+                                    {
+                                        "name": "Sports",
+                                        "value": 1107.6,
+                                        "label": " $1,107.60"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "type": "MEDIUM",
+                        "payload": {
+                            "type": "PIECHART",
+                            "medium_url": "http://www/someimg.png",
+                            "hyperlink_url": "http://someulrl.com",
+                            "chart_data": {
+                                "data_type": "category",
+                                "title": "Activity Cost",
+                                "items": [
+                                    {
+                                        "name": "Garden",
+                                        "value": 2107.27,
+                                        "label": " $2,107.27"
+                                    },
+                                    {
+                                        "name": "Sports",
+                                        "value": 1107.6,
+                                        "label": " $1,107.60"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "type": "BUTTON",
+            "payload": {
+                "payload": "Click here",
+                "label": "Click here",
+                "type": "POSTBACK"
+            }
+        }
+    ]
+}

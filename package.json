@@ -1,0 +1,86 @@
+{
+  "name": "webview-library",
+  "version": "3.1.0",
+  "author": "Kasisto",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "./build/build_webview.sh",
+    "use-query-string-mode": "sed -i '' -e 's/loadThemeAndAssistantPropertyFromQueryString: .*/loadThemeAndAssistantPropertyFromQueryString: window.config.loadThemeAndAssistantPropertyFromQueryString === undefined ? true : window.config.loadThemeAndAssistantPropertyFromQueryString,/' ./src/store/index.js",
+    "revert-query-string-mode": "sed -i '' -e 's/loadThemeAndAssistantPropertyFromQueryString: .*/loadThemeAndAssistantPropertyFromQueryString: window.config.loadThemeAndAssistantPropertyFromQueryString === undefined ? false : window.config.loadThemeAndAssistantPropertyFromQueryString,/' ./src/store/index.js",
+    "build-single": "npm run -s use-query-string-mode && ./build/build_webview.sh production_single_file && npm run -s revert-query-string-mode",
+    "build-hash": "./build/build_webview.sh production_hash_files",
+    "lint": "vue-cli-service lint",
+    "test": "./run_browserstack.sh",
+    "tst": "testcafe \"chrome:emulation:device=iphone 6\" test/e2e/*.test.js --app \"npm run serve\" --screenshots ./screenshots --screenshots-on-fails --app-init-delay 2000",
+    "testdebug": "testcafe \"chrome:emulation:device=iphone 6\" test/e2e/*.test.js --app \"npm run serve\" --debug-on-fail",
+    "dist": "./distribute_webview.sh"
+  },
+  "dependencies": {
+    "@johmun/vue-tags-input": "^2.1.0",
+    "@melmacaluso/vue-modal": "^2.1.0",
+    "@vue/component-compiler-utils": "^3.1.2",
+    "apexcharts": "^3.25.0",
+    "core-js": "^3.6.2",
+    "detect-browser": "^5.3.0",
+    "jquery": "^3.5.1",
+    "js-cookie": "^2.2.1",
+    "lottie-web": "^5.9.1",
+    "mobile-device-detect": "^0.3.3",
+    "moment": "^2.24.0",
+    "popper.js": "^1.16.0",
+    "smoothscroll-polyfill": "^0.4.4",
+    "testcafe": "^1.15.1",
+    "testcafe-browser-provider-browserstack": "^1.13.2-alpha.1",
+    "typeahead.js": "^0.11.1",
+    "vue": "^2.6.11",
+    "vue-apexcharts": "^1.5.1",
+    "vue-cli-plugin-compression": "^1.1.5",
+    "vue-js-modal": "^2.0.0-rc.6",
+    "vue-lottie": "^0.2.1",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.2",
+    "@vue/cli-plugin-eslint": "^4.1.2",
+    "@vue/cli-plugin-vuex": "^4.1.2",
+    "@vue/cli-service": "^4.2.3",
+    "@vue/eslint-config-standard": "^5.0.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.1.2",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "ifdef-loader": "^2.3.2",
+    "image-webpack-loader": "^8.1.0",
+    "less": "^3.0.4",
+    "less-loader": "^5.0.0",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^8.0.0",
+    "vue-svg-inline-loader": "^2.1.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

@@ -1,0 +1,156 @@
+.kai-avatar {
+    width: 100%;
+    float: left;
+}
+.lottie{
+    display:block;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+
+
+.kai-avatar .lottie-isdefault{
+    position: absolute;
+    left: 0px;
+    height: calc(var(--header-bar-height) - var(--header-bar-bottom-height));
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.lottie-islarge{
+    width: 100%;
+    height: 73px;
+    margin-bottom: 30px;
+    margin-left: calc(50% - 50px);
+    margin-top: 20px;
+    transition:all 1s ease;
+    transition-property: margin-top, margin-bottom, margin-left;
+    //transition-duration:1s, 1s, 1s;
+    //transition-delay:1s, 1s, 2s;
+    transition-timing-funtion:linear;
+    position: relative;
+    //-webkit-transition: width 2s, height 2s margin-left50s margin-top50s ease 2s;
+    //transition: width 2s, height 2s margin-left50s margin-top50s ease 2s;
+}
+
+.avatar-anim-sm {
+    left: 0px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 34px;
+    position: relative;
+
+}
+
+/*
+.debug-mode.lottie {
+    position: absolute;
+    left: 38%;
+    width: 23%;
+    height: 23%;
+   
+}
+
+.debug-text {
+    position: absolute;
+    left: 41%;
+    width: 30%;
+    margin: 0 auto;
+    height: 30%;
+    font-size: 24px;
+    font-weight: bold;
+    top: 0%;
+}
+*/
+
+.popout {
+    animation: popout 1s ease;
+    -webkit-animation: popout 1s ease;
+}
+@keyframes popout {
+    from{transform:scale(0)}
+    80%{transform:scale(1.2)}
+    to{transform:scale(1)}
+}
+@-webkit-keyframes popout {
+    from{-webkit-transform:scale(0)}
+    80%{-webkit-transform:scale(1.2)}
+    to{-webkit-transform:scale(1)}
+}
+
+//Avatar Paths
+.Fill_primary, .Fill_primary path {
+    stroke: var(--primary-action-color);
+    fill: var(--primary-action-color);
+}
+.Stroke_primary, .Stroke_primary path{
+    stroke: var(--primary-action-color);
+    fill: var(--primary-action-color);
+}
+.Fill_primary_light, .Fill_primary_light path {
+    stroke: var(--highlight-color);
+    fill: var(--highlight-color);
+}
+.Stroke_primary_light, .Stroke_primary_light path{
+    stroke: var(--highlight-color);
+    fill: var(--highlight-color);
+}
+.Fill_primary_dark, .Fill_primary_dark path {
+    stroke: var(--primary-action-color-dark);
+    fill: var(--primary-action-color-dark);
+}
+.Stroke_primary_dark, .Stroke_primary_dark path{
+    stroke: var(--primary-action-color-dark);
+    fill: var(--primary-action-color-dark);
+}
+.Fill_secondary, .Fill_secondary path{
+    stroke: var(--secondary-action-color);
+    fill: var(--secondary-action-color);
+}
+.Stroke_secondary, .Stroke_secondary path{
+    stroke: var(--secondary-action-color);
+    fill: var(--secondary-action-color);
+}
+.Fill_secondary_light, .Fill_secondary_light path {
+    stroke: var(--secondary-action-color-light);
+    fill: var(--secondary-action-color-light);
+}
+.Stroke_secondary_light, .Stroke_secondary_light path{
+    stroke: var(--secondary-action-color-light);
+    fill: var(--secondary-action-color-light);
+}
+.Fill_playground_1, .Fill_playground_1 path {
+    stroke: var(--playground-1-color);
+    fill: var(--playground-1-color);
+}
+.Stroke_playground_1, .Stroke_playground_1 path{
+    stroke: var(--playground-1-color);
+    fill: var(--playground-1-color);
+}
+.Fill_playground_2, .Fill_playground_2 path {
+    stroke: var(--playground-2-color);
+    fill: var(--playground-2-color);
+}
+.Stroke_playground_2, .Stroke_playground_2 path{
+    stroke: var(--playground-2-color);
+    fill: var(--playground-2-color);
+}
+.Fill_playground_3, .Fill_playground_3 path {
+    stroke: var(--playground-3-color);
+    fill: var(--playground-3-color);
+}
+.Stroke_playground_3, .Stroke_playground_3 path{
+    stroke: var(--playground-3-color);
+    fill: var(--playground-3-color);
+}
+.Fill_alert, .Fill_alert path{
+    stroke: var(--alert-color);
+    fill: var(--alert-color);
+}
+.Stroke_alert, .Stroke_alert path{
+    stroke: var(--alert-color);
+    fill: var(--alert-color);
+}

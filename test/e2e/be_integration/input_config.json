@@ -1,0 +1,224 @@
+[
+   {
+      "id":"LocationCheck",
+      "trigger_sentence":"ts: location picker check",
+      "desc": "button of type DATE which should invoke the location picker element"
+   },
+   {
+      "id":"DateCheck",
+      "trigger_sentence":"ts: date picker check",
+      "desc": "button of type LOCATION which should invoke the date picker element"
+   },
+   {
+      "id":"CarouselCheck",
+      "trigger_sentence":"ts: carousel select check",
+      "desc": "carousel select element with min_select=1 and max_select=2"
+   },
+   {
+      "id":"ChecklistCheck",
+      "trigger_sentence":"ts: checklist select check",
+      "desc": "checklist select element with no min/max select"
+   },
+   {
+      "id":"ListCheck",
+      "trigger_sentence":"ts: list select check",
+      "desc": "list select element with min_select=2 and max_select=3"
+   },
+   {
+      "id":"HiddenCheck",
+      "trigger_sentence":"ts: hidden select check",
+      "desc": "hidden select item"
+   },
+    {
+       "id":"default_single_text",
+       "trigger_sentence":"TS: default single text"
+    },
+    {
+       "id":"default_single_text_qr",
+       "trigger_sentence":"TS: default single text qr"
+    },
+    {
+       "id":"default_single_button",
+       "trigger_sentence":"TS: default single button"
+    },
+    {
+       "id":"default_single_button_qr",
+       "trigger_sentence":"TS: default single button qr"
+    },
+    {
+       "id":"default_single_gallery",
+       "trigger_sentence":"TS: default single gallery"
+    },
+    {
+       "id":"default_single_gallery_qr",
+       "trigger_sentence":"TS: default single gallery qr"
+    },
+    {
+       "id":"default_single_gallery_button",
+       "trigger_sentence":"TS: default single gallery button"
+    },
+    {
+       "id":"default_single_gallery_button_qr",
+       "trigger_sentence":"TS: default single gallery button qr"
+    },
+    {
+       "id":"default_alternative_text",
+       "trigger_sentence":"TS: default alternative text"
+    },
+    {
+       "id":"default_alternative_text_qr",
+       "trigger_sentence":"TS: default alternative text qr"
+    },
+    {
+       "id":"default_alternative_button",
+       "trigger_sentence":"TS: default alternative button"
+    },
+    {
+       "id":"default_alternative_button_qr",
+       "trigger_sentence":"TS: default alternative button qr"
+    },
+    {
+       "id":"default_alternative_gallery",
+       "trigger_sentence":"TS: default alternative gallery"
+    },
+    {
+       "id":"default_alternative_gallery_qr",
+       "trigger_sentence":"TS: default alternative gallery qr"
+    },
+    {
+       "id":"default_alternative_gallery_button",
+       "trigger_sentence":"TS: default alternative gallery button"
+    },
+    {
+       "id":"default_alternative_gallery_button_qr",
+       "trigger_sentence":"TS: default alternative gallery button qr"
+    },
+    {
+       "id":"default_multiple_text",
+       "trigger_sentence":"TS: default multiple text"
+    },
+    {
+       "id":"default_multiple_text_qr",
+       "trigger_sentence":"TS: default multiple text qr"
+    },
+    {
+       "id":"default_multiple_button",
+       "trigger_sentence":"TS: default multiple button"
+    },
+    {
+       "id":"default_multiple_button_qr",
+       "trigger_sentence":"TS: default multiple button qr"
+    },
+    {
+       "id":"default_multiple_gallery",
+       "trigger_sentence":"TS: default multiple gallery"
+    },
+    {
+       "id":"default_multiple_gallery_qr",
+       "trigger_sentence":"TS: default multiple gallery qr"
+    },
+    {
+       "id":"default_multiple_gallery_button",
+       "trigger_sentence":"TS: default multiple gallery button"
+    },
+    {
+       "id":"default_multiple_gallery_button_qr",
+       "trigger_sentence":"TS: default multiple gallery button qr"
+    },
+    {
+       "id":"segmented_single_text",
+       "trigger_sentence":"TS: segmented single text"
+    },
+    {
+       "id":"segmented_single_text_qr",
+       "trigger_sentence":"TS: segmented single text qr"
+    },
+    {
+       "id":"segmented_single_button",
+       "trigger_sentence":"TS: segmented single button"
+    },
+    {
+       "id":"segmented_single_button_qr",
+       "trigger_sentence":"TS: segmented single button qr"
+    },
+    {
+       "id":"segmented_single_gallery",
+       "trigger_sentence":"TS: segmented single gallery"
+    },
+    {
+       "id":"segmented_single_gallery_qr",
+       "trigger_sentence":"TS: segmented single gallery qr"
+    },
+    {
+       "id":"segmented_single_gallery_button",
+       "trigger_sentence":"TS: segmented single gallery button"
+    },
+    {
+       "id":"segmented_single_gallery_button_qr",
+       "trigger_sentence":"TS: segmented single gallery button qr"
+    },
+    {
+       "id":"segmented_alternative_text",
+       "trigger_sentence":"TS: segmented alternative text"
+    },
+    {
+       "id":"segmented_alternative_text_qr",
+       "trigger_sentence":"TS: segmented alternative text qr"
+    },
+    {
+       "id":"segmented_alternative_button",
+       "trigger_sentence":"TS: segmented alternative button"
+    },
+    {
+       "id":"segmented_alternative_button_qr",
+       "trigger_sentence":"TS: segmented alternative button qr"
+    },
+    {
+       "id":"segmented_alternative_gallery",
+       "trigger_sentence":"TS: segmented alternative gallery"
+    },
+    {
+       "id":"segmented_alternative_gallery_qr",
+       "trigger_sentence":"TS: segmented alternative gallery qr"
+    },
+    {
+       "id":"segmented_alternative_gallery_button",
+       "trigger_sentence":"TS: segmented alternative gallery button"
+    },
+    {
+       "id":"segmented_alternative_gallery_button_qr",
+       "trigger_sentence":"TS: segmented alternative gallery button qr"
+    },
+    {
+       "id":"segmented_multiple_text",
+       "trigger_sentence":"TS: segmented multiple text"
+    },
+    {
+       "id":"segmented_multiple_text_qr",
+       "trigger_sentence":"TS: segmented multiple text qr"
+    },
+    {
+       "id":"segmented_multiple_button",
+       "trigger_sentence":"TS: segmented multiple button"
+    },
+    {
+       "id":"segmented_multiple_button_qr",
+       "trigger_sentence":"TS: segmented multiple button qr"
+    },
+    {
+       "id":"segmented_multiple_gallery",
+       "trigger_sentence":"TS: segmented multiple gallery"
+    },
+    {
+       "id":"segmented_multiple_gallery_qr",
+       "trigger_sentence":"TS: segmented multiple gallery qr"
+    },
+    {
+       "id":"segmented_multiple_gallery_button",
+       "trigger_sentence":"TS: segmented multiple gallery button"
+    },
+    {
+       "id":"segmented_multiple_gallery_button_qr",
+       "trigger_sentence":"TS: segmented multiple gallery button qr"
+    }
+ ]

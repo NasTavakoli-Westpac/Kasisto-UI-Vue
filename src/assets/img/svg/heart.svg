@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="16px" viewBox="0 0 18 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>heart</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HD/Shortcut-Menu---Open" transform="translate(-102.000000, -105.000000)" fill="#03A96F">
+            <g id="Group-9" transform="translate(101.974147, 100.000000)">
+                <path d="M9.36778947,6.43974737 L8.87936842,6.92816842 L8.39094737,6.43974737 C6.47094737,4.51974737 3.35852632,4.51974737 1.43936842,6.43974737 C-0.479789474,8.35890526 -0.479789474,11.4713263 1.43936842,13.3904842 L1.92778947,13.8797474 L8.87936842,20.8313263 L16.3193684,13.3904842 C18.2385263,11.4713263 18.2385263,8.35890526 16.3193684,6.43974737 C14.4002105,4.51974737 11.2877895,4.51974737 9.36778947,6.43974737 Z" id="heart"></path>
+            </g>
+        </g>
+    </g>
+</svg>

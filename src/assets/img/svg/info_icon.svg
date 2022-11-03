@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>info icon</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.497395833">
+        <g id="HD/Shortcut-Menu---Open" transform="translate(-143.000000, -445.000000)">
+            <g id="Group-6" transform="translate(30.000000, 441.000000)">
+                <g id="Group-4" transform="translate(10.000000, 0.000000)">
+                    <g id="info-icon" transform="translate(104.000000, 4.000000)">
+                        <circle id="Oval" stroke="#1C2029" cx="5.63763648" cy="6.36236352" r="5.63763648"></circle>
+                        <text id="i" font-family="Helvetica" font-size="10" font-weight="normal" fill="#1C2029">
+                            <tspan x="4.52679663" y="10">i</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,145 @@
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200"
+    },
+    "current_intent": "VpaGreeting",
+    "message_contents": [
+        {
+            "type": "CONTAINER",
+            "payload": {
+                "mode": "CAROUSEL",
+                "contents": [
+                    {
+                        "type": "CUSTOM",
+                        "payload": {
+                            "type": "CONCIERGE_CARD",
+                            "data": {
+                                "title": "Daily Cash Positions",
+                                "highlight": {
+                                    "label": "Accounts",
+                                    "value": "14"
+                                },
+                                "subtitle": "Total Balance: $4,141,167.36",
+                                "table_data": {
+                                    "data_type": "category",
+                                    "title": "Daily Cash Positions",
+                                    "items": [
+                                        {
+                                            "Currency": "EUR (€)",
+                                            "# of Accounts": "6",
+                                            "<div class='cust-msg-align-right'>% Change</div>": "<div class='cust-msg-green cust-msg-align-right'>(+15.45%)</div>",
+                                            "<div class='cust-msg-align-right'>Balance (Current Day)</div>": "<div class='cust-msg-align-right'>$345,142.41</div>"
+                                        },
+                                        {
+                                            "Currency": "GBP (£)",
+                                            "# of Accounts": "3",
+                                            "<div class='cust-msg-align-right'>% Change</div>": "<div class='cust-msg-red cust-msg-align-right'>(-2.35%)</div>",
+                                            "<div class='cust-msg-align-right'>Balance (Current Day)</div>": "<div class='cust-msg-align-right'>$95,242.86</div>"
+                                        },
+                                        {
+                                            "Currency": "USD ($)",
+                                            "# of Accounts": "2",
+                                            "<div class='cust-msg-align-right'>% Change</div>": "<div class='cust-msg-green cust-msg-align-right'>(+1.75%)</div>",
+                                            "<div class='cust-msg-align-right'>Balance (Current Day)</div>": "<div class='cust-msg-align-right'>$94,515.13</div>"
+                                        },
+                                        {
+                                            "Currency": "JPY (¥)",
+                                            "# of Accounts": "2",
+                                            "<div class='cust-msg-align-right'>% Change</div>": "<div class='cust-msg-green cust-msg-align-right'>(+1.45%)</div>",
+                                            "<div class='cust-msg-align-right'>Balance (Current Day)</div>": "<div class='cust-msg-align-right'>$424,124.41</div>"
+                                        },
+                                        {
+                                            "Currency": "KRW (₩)",
+                                            "# of Accounts": "1",
+                                            "<div class='cust-msg-align-right'>% Change</div>": "<div class='cust-msg-align-right'>(0.00%)</div>",
+                                            "<div class='cust-msg-align-right'>Balance (Current Day)</div>": "<div class='cust-msg-align-right'>$143,412.23</div>"
+                                        }
+                                    ]
+                                },
+                                "buttons": [
+                                    {
+                                        "label": "Review All Accounts",
+                                        "type": "POSTBACK",
+                                        "payload": "Review All Accounts"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "type": "CUSTOM",
+                        "payload": {
+                            "type": "CONCIERGE_CARD",
+                            "data": {
+                                "title": "Payment Actions",
+                                "highlight": {
+                                    "label": "Remaining Actions",
+                                    "value": "214"
+                                },
+                                "subtitle": "2 Payments Were Rejected and Require Review",
+                                "table_data": {
+                                    "data_type": "category",
+                                    "title": "Payment Actions",
+                                    "items": [
+                                        {
+                                            "Account": "1341",
+                                            "Payment Type": "Wire",
+                                            "Amount": "$1,214,144.24",
+                                            "Status": "<div class='cust-msg-red'>Rejected</div>"
+                                        },
+                                        {
+                                            "Account": "4241",
+                                            "Payment Type": "ACH",
+                                            "Amount": "$142,902.24",
+                                            "Status": "<div class='cust-msg-red'>Rejected</div>"
+                                        },
+                                        {
+                                            "Account": "5262",
+                                            "Payment Type": "Payroll",
+                                            "Amount": "$23,002.24",
+                                            "Status": "Pending"
+                                        },
+                                        {
+                                            "Account": "5202",
+                                            "Payment Type": "Wire",
+                                            "Amount": "$11,222.02",
+                                            "Status": "Pending"
+                                        },
+                                        {
+                                            "Account": "0225",
+                                            "Payment Type": "ACH",
+                                            "Amount": "$1,222.99",
+                                            "Status": "Pending"
+                                        }
+                                    ]
+                                },
+                                "buttons": [
+                                    {
+                                        "label": "Review Payment Actions",
+                                        "type": "POSTBACK",
+                                        "payload": "Review Payment Actions"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "quick_replies": [
+        {
+            "payload": "Largest Positive Change",
+            "type": "TEXT",
+            "display_text": "Largest Positive Change"
+        },
+        {
+            "payload": "Largest Negative Change",
+            "type": "TEXT",
+            "display_text": "Largest Negative Change"
+        }
+    ]
+}

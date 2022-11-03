@@ -1,0 +1,143 @@
+{
+    "context": {
+        "user": {
+        }
+        ,
+        "api_version":"2.1.2"
+    }
+    ,
+    "status": {
+        "code": "200"
+    }
+    ,
+    "current_intent":"VpaGreeting",
+    "message_contents":[ {
+        "type":"DEBUG",
+        "payload": [
+            {
+              "icon":"baseline_burst_mode_black_48pt_3x.png",
+              "title":"Carousel",
+              "subtitle":"The collection of message contents to display as a Carousel",
+              "active":"__carousel"
+            },
+            {
+              "icon":"baseline_burst_mode_black_48pt_3x.png",
+              "title":"Card Small",
+              "subtitle":"The collection of message contents to display as a Carousel",
+              "active":"__card_small"
+            },
+            {
+              "icon":"baseline_burst_mode_black_48pt_3x.png",
+              "title":"Card Gauge",
+              "subtitle":"The collection of message contents to display as a Carousel",
+              "active":"__card_gauge"
+            },
+            {
+              "icon":"line-chart.png",
+              "title":"Line Chart",
+              "subtitle":"The collection of Historical Credit Score Chart display as a Carousel",
+              "active":"__linechart"
+            },
+            {
+              "icon":"baseline_edit_attributes_black_48pt_3x.png",
+              "title":"Quick Replies",
+              "subtitle":"The collection of message contents to display as a Quick Replies",
+              "active":"__quickreplies"
+            },
+            {
+              "icon": "baseline_map_black_48pt_3x.png",
+              "title":"Maps",
+              "subtitle":"Find local business information, directions, and street-level imagery around the world.",
+              "active":"__map"
+            },
+            {
+              "icon":"baseline_check_box_black_48pt_3x.png",
+              "title":"Select Card",
+              "subtitle":"Multi-select example using cards",
+              "active":"__selectCarousel"
+            },
+            {
+              "icon":"baseline_playlist_add_check_black_48pt_3x.png",
+              "title":"Select List",
+              "subtitle":"Multi-select example using list",
+              "active":"__selectList"
+            },
+            {
+              "icon":"baseline_playlist_add_check_black_48pt_3x.png",
+              "title":"Select Checklist",
+              "subtitle":"Multi-select example using checklist",
+              "active":"__selectChecklist"
+            },
+            {
+              "icon":"baseline_star_black_48pt_3x.png",
+              "title":"5 Star Feedback",
+              "subtitle":"Rating scale example",
+              "active":"__rating_five"
+            },
+            {
+              "icon":"baseline_star_border_black_48pt_3x.png",
+              "title":"10 Star Feedback",
+              "subtitle":"CSAT example",
+              "active":"__rating_ten"
+            },
+            {
+              "icon":"baseline_format_list_bulleted_black_48pt_3x.png",
+              "title":"List",
+              "subtitle":"The collection of message contents to display as a List",
+              "active":"__list"
+            },
+            {
+              "icon":"baseline_format_list_bulleted_black_48pt_3x.png",
+              "title":"Grouped List",
+              "subtitle":"The collection of message contents to display as a List",
+              "active":"__listgrouped"
+            },
+            {
+              "icon":"round_textsms_black_48pt_3x.png",
+              "title":"Text Bubble",
+              "subtitle":"The collection of message contents to display as a Text Bubble",
+              "active":"__textresponse"
+            },
+            {
+              "icon":"outline_dynamic_feed_black_48dp.png",
+              "title":"NBest",
+              "subtitle":"The collection of message contents to display as a NBest",
+              "active":"__nbest"
+            },
+            {
+              "icon":"baseline_date_range_black_48pt_3x.png",
+              "title":"Date Picker",
+              "subtitle":"The collection of message contents to display as a Date Picker",
+              "active":"__datepicker"
+            },
+            {
+              "icon":"baseline_support_agent_black_48pt_3x.png",
+              "title":"Live Chat",
+              "subtitle":"The collection of message contents and events to display during Live Chat conversation",
+              "active":"__livechat"
+            }
+            ,
+            {
+              "icon":"baseline_extension_black_48dp.png",
+              "title":"Theme Changer",
+              "subtitle":"Theme style changer with Less export",
+              "active":"__themeChanger"
+            }
+            ,
+            {
+              "icon":"outline_dashboard_black_48dp.png",
+              "title":"Switch Widget Mode",
+              "subtitle":"Switch from full screen mode to widget (in website) display",
+              "active":"__widget"
+            }
+            ,
+            {
+              "icon":"baseline_exit_to_app_black_48dp.png",
+              "title":"Cancel Debug mode",
+              "subtitle":"Turn off debug mode",
+              "active":"__debug=false",
+              "class" : "cancelDebugBtn"
+            }
+        ]
+   } ]
+}

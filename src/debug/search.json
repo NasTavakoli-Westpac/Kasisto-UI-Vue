@@ -1,0 +1,29 @@
+{
+  "status": {
+    "code": "200"
+  },
+  "current_intent": "VpaUnknownRequest",
+  "message_contents": [
+    {
+      "type": "TEXT",
+      "payload": {
+        "text": "Sorry, I don't have an answer for:<br><i>\"When was Kasisto created?\"</i>"
+      }
+    },
+    {
+        "type": "TEXT",
+        "payload": {
+          "text": "I searched for related articles and here's what I found:"
+        }
+      },
+      {
+        "type": "CUSTOM",
+        "payload": {
+            "type": "WEB_SEARCH_SILVERCLOUD",
+            "data": {
+                "query": "account"
+            }
+        }
+    }
+  ]
+}

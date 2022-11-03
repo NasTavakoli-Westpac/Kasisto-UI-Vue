@@ -1,0 +1,69 @@
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200",
+        "message": "Success"
+    },
+    "current_intent": "VpaGetAnswer",
+    "message_contents": [
+        {
+            "type": "CONTAINER",
+            "payload": {
+                "mode": "LIST",
+                "contents": [
+                    {
+                        "type": "card",
+                        "payload": {
+                            "title": "Mary Smith - Financial Advisor",
+							"subtitle": "Yes",
+	                            "buttons": [
+                                
+                                {
+                                    "label": "Edit",
+                                    "type": "POSTBACK",
+                                    "payload": "http://www.xbank.com/learn_accounts.html"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "card",
+                        "payload": {
+                            "title": "Thomas Jones - Senior Financial Advisor",
+                            "buttons": [
+                                
+                                {
+                                    "label": "Button 1",
+                                    "type": "POSTBACK",
+                                    "payload": "http://www.xbank.com/learn_accounts.html"
+                                },
+                                {
+                                    "label": "Button 2",
+                                    "type": "POSTBACK",
+                                    "payload": "http://www.xbank.com/learn_accounts.html"
+                                },
+                                {
+                                    "label": "Button 3",
+                                    "type": "POSTBACK",
+                                    "payload": "http://www.xbank.com/learn_accounts.html"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type": "card",
+                        "payload": {
+                            "title": "John Doe - Financial Advisor",
+                            "subtitle": "Financial Advisor with <b>5</b> <i>years of experience</i>. <span class='select-list-txt-green'>John</span> provides excellent financial planning and support to clients in order to help them achieve their <b>personal financial goals</b>.",	                          
+                            "medium": {
+                                "medium_url": "data:image/jpeg;base64,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"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

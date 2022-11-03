@@ -1,0 +1,25 @@
+{
+  "context": {
+    "user": {
+      "session_id": "node01t4xktjxo190k1ozb9y0dzr8l43416232601796371893dbc3-23bf-4303-82d0-f3baf81ba96f",
+      "segment_names": [
+        "global"
+      ]
+    },
+    "api_version": "4.0",
+    "model_version": "ASSISTANT-models_ALL"
+  },
+  "message_contents": [
+    {
+      "type": "BUTTON",
+      "payload": {
+        "label": "Learn more",
+        "type": "HYPERLINK",
+        "payload": "https://kasisto.com/"
+     }
+    }
+  ],
+  "status": {
+    "code": "200"
+  }
+}

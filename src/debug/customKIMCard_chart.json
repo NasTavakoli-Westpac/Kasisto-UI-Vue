@@ -1,0 +1,78 @@
+{
+    "context": {
+        "api_version": "2.1.2"
+    },
+    "status": {
+        "code": "200"
+    },
+    "current_intent": "VpaGreeting",
+    "message_contents": [
+        {
+            "type": "CUSTOM",
+            "payload": {
+                "type": "KIM_CARD",
+                "data": {
+                    "title": "Spending patterns",
+                    "subtitle": "<div class='cust-msg-line'><div class='cust-msg-title cust-msg-left'>Performance:</div><div class='cust-msg-title cust-msg-right cust-msg-green'>+25.24%</div></div><div class='cust-msg-line'><div class='cust-msg-label cust-msg-left'>Apple (AAPL)</div><div class='cust-msg-right'>35.65%</div></div><div class='cust-msg-line'><div class='cust-msg-label cust-msg-left'>Beyond Meat (BYND)</div><div class='cust-msg-right'>29.11%</div></div><div class='cust-msg-line'><div class='cust-msg-label cust-msg-left'>Starbucks (SBUX)</div><div class='cust-msg-right'>11.14%</div></div><div class='cust-msg-line'><div class='cust-msg-label cust-msg-left'>Microsoft (MSFT)</div><div class='cust-msg-right'>4.14%</div></div><div class='cust-msg-line'><div class='cust-msg-label cust-msg-left'>Tesla (TSLA)</div><div class='cust-msg-right cust-msg-red'>-3.11%</div></div><div class='cust-msg-line'><div class='cust-msg-label cust-msg-left'>Pier 1 (PIR)</div><div class='cust-msg-right cust-msg-red'>-9.52%</div></div>",
+                    "chart_data": {
+                        "data_type": "category",
+                        "title": "Your categories, compared",
+                        "items": [
+                            {
+                                "label": "ACN - $18,525.00",
+                                "value": 18525
+                            },
+                            {
+                                "label": "FB - $17,925.00",
+                                "value": 17925
+                            },
+                            {
+                                "label": "MMM - $15,462.00",
+                                "value": 15462
+                            },
+                            {
+                                "label": "DFS - $7,622.00",
+                                "value": 7622
+                            },
+                            {
+                                "label": "HSIC - $6,179.00",
+                                "value": 6179
+                            },
+                            {
+                                "label": "CVS - $6,111.00",
+                                "value": 6111
+                            },
+                            {
+                                "label": "FE - $4,761.00",
+                                "value": 4761
+                            },
+                            {
+                                "label": "ZION - $4,245.00",
+                                "value": 4245
+                            },
+                            {
+                                "label": "FL - $4,136.00",
+                                "value": 4136
+                            },
+                            {
+                                "label": "T - $3,708.00",
+                                "value": 3708
+                            },
+                            {
+                                "label": "Other - $11,928.00",
+                                "value": 11928
+                            }
+                        ]
+                    },
+                    "buttons": [
+                        {
+                            "label": "LEARN MORE",
+                            "type": "HYPERLINK",
+                            "payload": "https://kasisto.com/"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

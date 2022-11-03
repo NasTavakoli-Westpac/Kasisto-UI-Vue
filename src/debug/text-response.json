@@ -1,0 +1,28 @@
+{
+  "status": {
+    "code": "200"
+  },
+  "current_intent": "VpaUnknownRequest",
+  "message_contents": [
+    {
+      "type": "TEXT",
+      "payload": {
+        "text": "The test box is used for the virtual assistant's messages to the user."
+      }
+    }
+  ],
+  "quick_replies": [
+    {
+      "type": "TEXT",
+      "display_text": "👍",
+      "payload": "👍",
+      "label": "👍"
+    },
+    {
+      "type": "TEXT",
+      "display_text": "👎",
+      "payload": "👎",
+      "label": "👎"
+    }
+  ]
+}
