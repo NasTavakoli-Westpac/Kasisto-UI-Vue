@@ -1,6 +1,5 @@
 <template>
 <div v-if="this.webviewIsReady">
-    <div class="theme-app" :class="{show:showThemeChanger}">
         <div id="webview-container" class="webview-container" role="main" :aria-roledescription="screenReaderTranslations.virtualAssistantDesignation + ' ' + screenReaderTranslations.chatArea" :class="{webview_container_widget:useWidgetMode, align_left:alignWidgetLeft}" v-show="this.showWidget">
             <SplashScreen v-if="showSplashScreen && showWidget"></SplashScreen>
             <HeaderBar v-if="!showSplashScreen && useHeaderBar && useAvatar && showWidget"></HeaderBar>
@@ -10,13 +9,12 @@
             <BottomBar v-if="!showSplashScreen" id="bottombar"></BottomBar>
             <ShortcutPanel :class="{shortcut_widget:useWidgetMode}"></ShortcutPanel>
         </div>
-      <PoweredBySnippet v-if="useWidgetMode && showWidget" class="powered_by_kasisto"></PoweredBySnippet>
         <div navDir="horizontal">
           <div class="webview_widget_launcher" role="button" :aria-label="screenReaderTranslations.open + ' ' + screenReaderTranslations.virtualAssistantDesignation" tabindex="0" navLvl="1" navDir="horizontal" ref="keyboardWrapper" v-show="!this.showWidget" v-on:click="this.toggleWidgetDisplay">
               <img aria-hidden="true" class="webview_widget_icon" ondragstart="return false;">
           </div>
         </div>
-    </div>
+
     <transition name="theme-editor-slide-fade" v-on:enter="moveWidget" v-on:after-leave="moveWidget">
         <div v-if="showThemeChanger" class="theme-editor" :class="{show:showThemeChanger}">
             <ThemeChanger></ThemeChanger>

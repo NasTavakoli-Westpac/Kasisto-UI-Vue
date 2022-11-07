@@ -9,6 +9,14 @@
         <div class="left-border" aria-hidden="true" v-if="Position === 'kai-left'"></div>
         <div class="right-border" aria-hidden="true" v-if="Position === 'kai-right'"></div>
         <div class="kai-chat-message-text" aria-hidden="true" v-if="Text && Text.length > 0" v-html="Text" :style="this.displayFixed && Position === 'kai-left' ? 'max-height:' + this.mainElementMaxHeight + 'px;': ''" :class="{fixed: this.displayFixed && showExpandButton}"></div>
+        <div class="kai-rating-binary-wrapper" tabindex="0" navDir="horizontal" v-if="Position === 'kai-left'">
+          <div class="kai-quick-reply-item" tabindex="-1" navLvl="1" navDir="horizontal" v-on:click="submitRating($event, item, i)" v-for="(item, i) in ratingItems" :key="i">
+              <div v-if="isDisable" class="kai-card-disabled-overlay"></div>
+              <div class="kai-quick-reply-label">
+                  <div v-html="item.label" :data-value="item.value" class="kai-quick-reply-label"></div>
+              </div>
+          </div>
+        </div>
         <div v-if="showExpandButton && Position === 'kai-left'" class="card-expand-button-wrapper" :class="{expanded:isExpanded}" v-tap="(e) => clickExpandButton(e)">
           <img v-if="!isExpanded" aria-hidden="true" class="card-expand-button" ondragstart="return false;" :src="expandIconSrc" width="20">
           <img v-if="isExpanded" aria-hidden="true" class="card-expand-button" ondragstart="return false;" :src="collapseIconSrc" width="20">
@@ -61,6 +69,15 @@ export default {
       }
 
       return this.lineBreak(text)
+    },
+    ratingItems: function () {
+      var items = [{value: "1",  label: "👍"}, {value: "0", label: "👎"}]
+      for (var i in items) {
+        if (Kai.API.getThumbsImage(items[i].label)) {
+          items[i].label = Kai.API.getThumbsImage(items[i].label)
+        }
+      }
+      return items
     },
     Position: function () {
       if (this.payload && this.payload.position && this.payload.position.length > 0) {
