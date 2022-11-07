@@ -12,7 +12,7 @@ var config = {
   botWidgetIconUrl: "./static/img/chat-icon.png", // Path to widget launcher's icon image
   botWidgetIconBackupUrl: "./static/img/chat-icon.png", // Path to widget launcher's backup image if botWidgetIconUrl failed to load
   useWidgetMode: true, // Flag to use Webview embedded as widget window
-  useHeaderBar: true, // Flag to use Header bar on top of webview
+  useHeaderBar: false, // Flag to use Header bar on top of webview
   headerBarConfig:{
     minimizeButtonAlignRight: false, // set to true to align the Minimize button on the header's right side.
     overrideMinimizeButtonClick: false // a function can be assigned here to override the default behavior when clicking on the Minimize button.
@@ -32,7 +32,7 @@ var config = {
     zoom: 16 // Zoom level of center point when location picker loads. Lower number = zoomed further out
   },
   locationAPIKey: "AIzaSyAcr4aKOJq8-zWAMEPWLZL-l9EgOk97OrM",
-  startSession: false, // Start session on page load vs first message sent
+  startSession: true, // Start session on page load vs first message sent
   introScreen: false, // Display "intro screen" which has the "Typically responds in minutes" view at top of chat
   showOnLoadTypingIcon: false, // Display ... when webview loads
   screenReader: true, // Include screen reader content in responses
@@ -63,7 +63,7 @@ var config = {
   overrideInvalidSessionIdHandling: false, // a function can be assigned here to override the default webview behavior when dealing with invalid Session ID
   sessionCookieEnabled: false, // set to true to store current the session ID in a cookie and retrieve it when the webview is re-loaded
   cookieExpirationTimeInSec: 900, // second before the session ID cookie expires, default is 900 seconds (15 min)
-  cookieAutoRefresh: false, // specify if cookie should be refreshed automatically or not, when set to false cookie is refreshed only when receiving Kai server response.
+  cookieAutoRefresh: true, // specify if cookie should be refreshed automatically or not, when set to false cookie is refreshed only when receiving Kai server response.
   rating: {
     type: 'circle'
   },
@@ -75,7 +75,7 @@ var config = {
   searchEngineNumberOfResult: 3,
   loadThemeFromBackend: false,
   loadThemeAndAssistantPropertyFromQueryString: false,
-  useAutocomplete: true,
+  useAutocomplete: false,
   autocompleteSettings: {
     useLocalCache: false,
     characterCountBeforeStart: 1,

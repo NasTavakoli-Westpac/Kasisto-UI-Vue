@@ -77,7 +77,8 @@ const context = (function () {
       deviceContext = {
         os: utils.getUserOS(),
         model: utils.getUserModel(),
-        id: ''
+        id: '',
+        type: 'web'
       }
     }
     return deviceContext
@@ -96,7 +97,8 @@ const context = (function () {
         conversation_id: '',
         session_id: null,
         // "version": kaiOptions.webviewLibraryVersion
-        version: '1.34'
+        version: '1.34',
+        user_id: 'f073964'
       }
     }
     return platformContext

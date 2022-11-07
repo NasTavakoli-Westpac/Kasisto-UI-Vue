@@ -355,6 +355,7 @@ const Core = (function () {
       additionalHeaders.assistant_target = window.ENV.SERVER_CONFIG.assistant_target
     }
     additionalHeaders[ENV.SERVER_CONFIG.APP_AUTH_HEADER] = ENV.SERVER_CONFIG.APP_AUTH_KEY
+    additionalHeaders[ENV.SERVER_CONFIG.KEY] = ENV.SERVER_CONFIG.VALUE
     kserver.CoreAPI.setAdditionalRequestHeaders(additionalHeaders)
 
     passToNativeMethod('webviewReady')

@@ -8,7 +8,8 @@ const opts = {
 
 // vue.config.js
 module.exports = {
-  publicPath: "/" ,
+  publicPath: "",
+  outputDir: "./dist",
   runtimeCompiler: true,
   filenameHashing: process.env.MODE === 'hash' ? true: false,
   css: {
@@ -24,10 +25,10 @@ module.exports = {
   configureWebpack: {
     output: process.env.MODE === 'hash'
       ? {
-        path: __dirname + '/dist',
+        // path: __dirname + '/dist',
         filename: 'webview-library.[hash].js'
-      } : process.env.NODE_ENV === 'production' ? { 
-        path: __dirname + '/dist',
+      } : process.env.NODE_ENV === 'production' ? {
+        // path: __dirname + '/dist',
         filename: 'webview-library.js'
       } : {},
     optimization: process.env.MODE === 'single' ? {
@@ -51,18 +52,18 @@ module.exports = {
         .end()
     }
     config.module
-    .rule('js')
-    .test(/\.m?jsx?$/)
-    .exclude.add(function() {
-      return [
+      .rule('js')
+      .test(/\.m?jsx?$/)
+      .exclude.add(function() {
+        return [
           'node_modules',
           'src/js/vendors'
-      ]})
-    .end()
-    .use('ifdef-loader')
-    .loader('ifdef-loader')
-    .options(opts)
-    .end()
+        ]})
+      .end()
+      .use('ifdef-loader')
+      .loader('ifdef-loader')
+      .options(opts)
+      .end()
   },
   pluginOptions: {
     compression:{
