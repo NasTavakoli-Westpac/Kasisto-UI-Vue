@@ -236,7 +236,7 @@ const Core = (function () {
 
   /****************************************************/
 
-  var kaiInit = function (e) {
+  var kaiInit = function (options = {}) {
     const initMode = findGetParameter('initMode')
 
     // Check for kai_session_id cookie
@@ -246,6 +246,7 @@ const Core = (function () {
         $store.state.kaiSessionId = kaiSessionId
       }
     }
+    updateConfigAndThemeVariables({content: {style: options.style}});
 
     if (store.state.loadThemeFromBackend) {
       var config = Cookies.get('k_config')
@@ -340,7 +341,7 @@ const Core = (function () {
 
     /* eslint-disable no-new */
     new Vue({
-      el: '#' + store.state.el,
+      el: options.el || '#' + store.state.el,
       store: store,
       components: { App },
       template: '<App/>'
@@ -381,8 +382,8 @@ const Core = (function () {
 
   /****************************************************/
 
-  window.addEventListener('load', () => {
-    kaiInit()
+  var mountChatWidget = function (options) {
+    kaiInit(options)
 
     // On Init load bottom bar
     setTimeout(function () {
@@ -391,7 +392,21 @@ const Core = (function () {
         appendComponent({}, IntroScreen, 'kai-component-top')
       }
     }, 0)
-  })
+  }
+
+  /****************************************************/
+
+  // window.addEventListener('load', () => {
+  //   kaiInit()
+
+  //   // On Init load bottom bar
+  //   setTimeout(function () {
+  //     appendComponent({}, NBest, 'n-best')
+  //     if (store.getters.getIntroScreen === true) {
+  //       appendComponent({}, IntroScreen, 'kai-component-top')
+  //     }
+  //   }, 0)
+  // })
 
   /****************************************************/
 
@@ -2269,7 +2284,7 @@ const Core = (function () {
     }
 
     generateMainContainerClass()
-
+    
     Cookies.remove('k_style')
     if (response.content && response.content.style) {
       Cookies.set('k_style', response.content.style)
@@ -2454,7 +2469,8 @@ const Core = (function () {
     updateSessionCookie,
     submitIntent,
     autoCompleteRequest,
-    getAvatarFile
+    getAvatarFile,
+    mountChatWidget
   }
 }()) // End Core.
 
